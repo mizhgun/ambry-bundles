@@ -1,0 +1,13 @@
+documentation:
+    footnote: null
+    main: '
+
+        '
+    processed: ''
+    readme: null
+    source: ''
+    summary: These are the official datasets used on the Medicare.gov Supplier Directory
+        provided by the Centers for Medicare  Medicaid Services. They provide names,
+        addresses, and contact information for suppliers that provide services or
+        products under the Medicare program.
+    title: Supplier Directory

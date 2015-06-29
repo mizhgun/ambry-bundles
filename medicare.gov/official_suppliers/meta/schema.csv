@@ -1,0 +1,106 @@
+table,seq,column,is_pk,is_fk,id,type,size,description
+suppliers,1,id,1,,tbdaiNtczS01,INTEGER,,Supplier Directory downloadable file
+suppliers,2,competitive_bid_service_area,,,cbdaiNtczS01002,VARCHAR,48,Competitive Bid Service Area
+suppliers,3,company_name,,,cbdaiNtczS01003,VARCHAR,70,Company Name
+suppliers,4,dba_name,,,cbdaiNtczS01004,VARCHAR,40,DBA Name
+suppliers,5,address,,,cbdaiNtczS01005,VARCHAR,55,Address
+suppliers,6,address_2,,,cbdaiNtczS01006,VARCHAR,55,Address 2
+suppliers,7,city,,,cbdaiNtczS01007,VARCHAR,30,City
+suppliers,8,state,,,cbdaiNtczS01008,VARCHAR,2,State
+suppliers,9,zip,,,cbdaiNtczS01009,VARCHAR,5,Zip
+suppliers,10,zip_plus_4,,,cbdaiNtczS0100a,VARCHAR,4,Zip Plus 4
+suppliers,11,phone,,,cbdaiNtczS0100b,VARCHAR,13,Phone
+suppliers,12,oxygen_supplies_and_equipment,,,cbdaiNtczS0100c,VARCHAR,3,Oxygen Supplies and Equipment
+suppliers,13,mail_order_diabetic_supplies,,,cbdaiNtczS0100d,VARCHAR,3,Mail-Order Diabetic Supplies
+suppliers,14,enteral_nutrients_equipment_and_supplies,,,cbdaiNtczS0100e,VARCHAR,3,"Enteral Nutrients, Equipment and Supplies"
+suppliers,15,cpap_devices_respiratory_assist_devices_and_related_supplies_and_accessories,,,cbdaiNtczS0100f,VARCHAR,3,"CPAP Devices, Respiratory Assist Devices, and Related Supplies and Accessories"
+suppliers,16,hospital_beds_and_related_accessories,,,cbdaiNtczS0100g,VARCHAR,3,Hospital Beds and Related Accessories
+suppliers,17,negative_pressure_wound_therapy_pumps_and_related_supplies_and_accessories,,,cbdaiNtczS0100h,VARCHAR,3,Negative Pressure Wound Therapy Pumps and Related Supplies and Accessories
+suppliers,18,walkers_and_related_accessories,,,cbdaiNtczS0100i,VARCHAR,3,Walkers and Related Accessories
+suppliers,19,support_surfaces_group_2_mattresses_and_overlays,,,cbdaiNtczS0100j,VARCHAR,3,Support Surfaces (Group 2 mattresses and overlays)
+suppliers,20,standard_power_manual_wheelchairs_scooters_and_related_accessories,,,cbdaiNtczS0100k,VARCHAR,3,"Standard (Power & Manual) Wheelchairs, Scooters, and Related Accessories"
+suppliers,21,external_infusion_pumps_and_supplies,,,cbdaiNtczS0100l,VARCHAR,3,External Infusion Pumps and Supplies
+suppliers,22,general_home_equipment_and_related_supplies_and_accessories,,,cbdaiNtczS0100m,VARCHAR,3,General Home Equipment and Related Supplies and Accessories
+suppliers,23,respiratory_equipment_and_related_supplies_and_accessories,,,cbdaiNtczS0100n,VARCHAR,3,Respiratory Equipment and Related Supplies and Accessories
+suppliers,24,standard_mobility_equipment_and_related_accessories,,,cbdaiNtczS0100o,VARCHAR,3,Standard Mobility Equipment and Related Accessories
+suppliers,25,is_supplier_participating,,,cbdaiNtczS0100p,VARCHAR,5,Is Supplier Participating?
+suppliers,26,automatic_external_defibrillators_aeds,,,cbdaiNtczS0100q,VARCHAR,3,Automatic External Defibrillators (AEDS)
+suppliers,27,commodes_urinals_bedpans,,,cbdaiNtczS0100r,VARCHAR,3,"Commodes, Urinals, & Bedpans"
+suppliers,28,continuous_passive_motion_cpm_devices,,,cbdaiNtczS0100s,VARCHAR,3,Continuous Passive Motion (CPM) Devices
+suppliers,29,dynamic_splints,,,cbdaiNtczS0100t,VARCHAR,3,Dynamic Splints
+suppliers,30,blood_glucose_monitors_supplies_non_mail_order,,,cbdaiNtczS0100u,VARCHAR,3,Blood Glucose Monitors & Supplies: Non-Mail Order
+suppliers,31,blood_glucose_monitors_supplies_mail_order,,,cbdaiNtczS0100v,VARCHAR,3,Blood Glucose Monitors & Supplies: Mail Order
+suppliers,32,blood_glucose_monitors_mail_order,,,cbdaiNtczS0100w,VARCHAR,3,Blood Glucose Monitors: Mail Order
+suppliers,33,gastric_suction_pumps,,,cbdaiNtczS0100x,VARCHAR,3,Gastric Suction Pumps
+suppliers,34,heat_cold_applications,,,cbdaiNtczS0100y,VARCHAR,3,Heat & Cold Applications
+suppliers,35,hospital_beds_electric,,,cbdaiNtczS0100z,VARCHAR,3,Hospital Beds: Electric
+suppliers,36,hospital_beds_total_electric_pediatric,,,cbdaiNtczS0100A,VARCHAR,3,Hospital Beds: Total Electric & Pediatric
+suppliers,37,hospital_beds_manual,,,cbdaiNtczS0100B,VARCHAR,3,Hospital Beds: Manual
+suppliers,38,hospital_beds_manual_pediatric,,,cbdaiNtczS0100C,VARCHAR,3,Hospital Beds: Manual & Pediatric
+suppliers,39,infrared_heating_pad_systems,,,cbdaiNtczS0100D,VARCHAR,3,Infrared Heating Pad Systems
+suppliers,40,infusion_pumps_supplies_external_infusion,,,cbdaiNtczS0100E,VARCHAR,3,Infusion Pumps & Supplies: External Infusion
+suppliers,41,infusion_pumps_implantable_uninterrupted,,,cbdaiNtczS0100F,VARCHAR,3,Infusion Pumps: Implantable & Uninterrupted
+suppliers,42,infusion_pumps_supplies_insulin_infusion,,,cbdaiNtczS0100G,VARCHAR,3,Infusion Pumps & Supplies: Insulin Infusion
+suppliers,43,infusion_pumps_supplies_implanted_infusion,,,cbdaiNtczS0100H,VARCHAR,3,Infusion Pumps & Supplies: Implanted Infusion
+suppliers,44,negative_pressure_wound_therapy_pumps_supplies,,,cbdaiNtczS0100I,VARCHAR,3,Negative Pressure Wound Therapy Pumps & Supplies
+suppliers,45,neuromuscular_electrical_stimulators_nmes,,,cbdaiNtczS0100J,VARCHAR,3,Neuromuscular Electrical Stimulators (NMES)
+suppliers,46,osteogenesis_stimulators,,,cbdaiNtczS0100K,VARCHAR,3,Osteogenesis Stimulators
+suppliers,47,pneumatic_compression_devices,,,cbdaiNtczS0100L,VARCHAR,3,Pneumatic Compression Devices
+suppliers,48,speech_generating_devices,,,cbdaiNtczS0100M,VARCHAR,3,Speech Generating Devices
+suppliers,49,support_surfaces_pressure_reducing_beds_mattresses_overlays_pads,,,cbdaiNtczS0100N,VARCHAR,3,"Support Surfaces: Pressure Reducing Beds, Mattresses, Overlays, & Pads"
+suppliers,50,support_surfaces_e_g_air_fluidized_bed,,,cbdaiNtczS0100O,VARCHAR,3,Support Surfaces (e.g. Air Fluidized bed)
+suppliers,51,traction_equipment,,,cbdaiNtczS0100P,VARCHAR,3,Traction Equipment
+suppliers,52,transcutaneous_electrical_nerve_stimulators_tens_units,,,cbdaiNtczS0100Q,VARCHAR,3,Transcutaneous Electrical Nerve Stimulators (TENS) Units
+suppliers,53,ultraviolet_light_devices,,,cbdaiNtczS0100R,VARCHAR,3,Ultraviolet Light Devices
+suppliers,54,home_dialysis_equipment_supplies,,,cbdaiNtczS0100S,VARCHAR,3,Home Dialysis Equipment & Supplies
+suppliers,55,hemodialysis_equipment_supplies,,,cbdaiNtczS0100T,VARCHAR,3,Hemodialysis Equipment & Supplies
+suppliers,56,canes_crutches,,,cbdaiNtczS0100U,VARCHAR,3,Canes & Crutches
+suppliers,57,patient_lifts,,,cbdaiNtczS0100V,VARCHAR,3,Patient Lifts
+suppliers,58,power_operated_vehicles_scooters,,,cbdaiNtczS0100W,VARCHAR,3,Power Operated Vehicles (Scooters)
+suppliers,59,seat_lift_mechanisms,,,cbdaiNtczS0100X,VARCHAR,3,Seat Lift Mechanisms
+suppliers,60,walkers,,,cbdaiNtczS0100Y,VARCHAR,3,Walkers
+suppliers,61,wheelchairs_accessories_standard_manual,,,cbdaiNtczS0100Z,VARCHAR,3,Wheelchairs & Accessories: Standard Manual
+suppliers,62,wheelchairs_accessories_standard_manual_e_g_pediatrics,,,cbdaiNtczS01010,VARCHAR,3,Wheelchairs & Accessories: Standard Manual (e.g. Pediatrics)
+suppliers,63,wheelchairs_accessories_standard_power,,,cbdaiNtczS01011,VARCHAR,3,Wheelchairs & Accessories: Standard Power
+suppliers,64,wheelchairs_accessories_standard_power_e_g_pediatrics_and_custom_cushions,,,cbdaiNtczS01012,VARCHAR,3,Wheelchairs & Accessories: Standard Power (e.g. Pediatrics and custom cushions )
+suppliers,65,wheelchairs_accessories_complex_rehabilitative_manual,,,cbdaiNtczS01013,VARCHAR,3,Wheelchairs & Accessories: Complex Rehabilitative Manual
+suppliers,66,wheelchairs_accessories_complex_rehabilitative_power,,,cbdaiNtczS01014,VARCHAR,3,Wheelchairs & Accessories: Complex Rehabilitative Power
+suppliers,67,wheelchairs_accessories_complex_rehabilitative_power_e_g_group_3_group_4_group_5,,,cbdaiNtczS01015,VARCHAR,3,"Wheelchairs & Accessories: Complex Rehabilitative Power (e.g. Group 3, Group 4, Group 5)"
+suppliers,68,wheelchair_seating_cushions,,,cbdaiNtczS01016,VARCHAR,3,Wheelchair Seating/Cushions
+suppliers,69,wheelchair_seating_cushions_e_g_skin_protecting_seat_cushions,,,cbdaiNtczS01017,VARCHAR,3,Wheelchair Seating/Cushions (e.g. skin protecting seat cushions)
+suppliers,70,orthoses_custom_fabricated,,,cbdaiNtczS01018,VARCHAR,3,Orthoses: Custom Fabricated
+suppliers,71,orthoses_prefabricated,,,cbdaiNtczS01019,VARCHAR,3,Orthoses: Prefabricated
+suppliers,72,orthoses_off_the_shelf,,,cbdaiNtczS0101a,VARCHAR,3,Orthoses: Off-the-Shelf
+suppliers,73,breast_prostheses_accessories,,,cbdaiNtczS0101b,VARCHAR,3,Breast Prostheses & Accessories
+suppliers,74,cochlear_implants,,,cbdaiNtczS0101c,VARCHAR,3,Cochlear Implants
+suppliers,75,facial_prostheses,,,cbdaiNtczS0101d,VARCHAR,3,Facial Prostheses
+suppliers,76,neurostimulators,,,cbdaiNtczS0101e,VARCHAR,3,Neurostimulators
+suppliers,77,ocular_prostheses,,,cbdaiNtczS0101f,VARCHAR,3,Ocular Prostheses
+suppliers,78,ostomy_supplies,,,cbdaiNtczS0101g,VARCHAR,3,Ostomy Supplies
+suppliers,79,somatic_prostheses,,,cbdaiNtczS0101h,VARCHAR,3,Somatic Prostheses
+suppliers,80,tracheostomy_supplies,,,cbdaiNtczS0101i,VARCHAR,3,Tracheostomy Supplies
+suppliers,81,urological_supplies,,,cbdaiNtczS0101j,VARCHAR,3,Urological Supplies
+suppliers,82,voice_prosthetics,,,cbdaiNtczS0101k,VARCHAR,3,Voice Prosthetics
+suppliers,83,prosthetic_lenses_conventional_eyeglasses,,,cbdaiNtczS0101l,VARCHAR,3,Prosthetic Lenses: Conventional Eyeglasses
+suppliers,84,prosthetic_lenses_conventional_contact_lenses,,,cbdaiNtczS0101m,VARCHAR,3,Prosthetic Lenses: Conventional Contact Lenses
+suppliers,85,prosthetic_lenses_prosthetic_cataract_lenses,,,cbdaiNtczS0101n,VARCHAR,3,Prosthetic Lenses: Prosthetic Cataract Lenses
+suppliers,86,enteral_nutrients_equipment_supplies,,,cbdaiNtczS0101o,VARCHAR,3,"Enteral Nutrients, Equipment, & Supplies"
+suppliers,87,enteral_nutrients_supplies_for_special_metabolic_needs_and_pediatrics,,,cbdaiNtczS0101p,VARCHAR,3,Enteral Nutrients & Supplies for Special Metabolic Needs and Pediatrics
+suppliers,88,parenteral_nutrients_equipment_supplies,,,cbdaiNtczS0101q,VARCHAR,3,"Parenteral Nutrients, Equipment & Supplies"
+suppliers,89,limb_prostheses,,,cbdaiNtczS0101r,VARCHAR,3,Limb Prostheses
+suppliers,90,eye_prostheses,,,cbdaiNtczS0101s,VARCHAR,3,Eye Prostheses
+suppliers,91,cpap_rads_related_supplies_accessories,,,cbdaiNtczS0101t,VARCHAR,3,"CPAP, RADs, & Related Supplies & Accessories"
+suppliers,92,cpap_and_rads_supplies_e_g_combination_masks,,,cbdaiNtczS0101u,VARCHAR,2,CPAP and RADs Supplies (e.g. combination masks)
+suppliers,93,high_frequency_chest_wall_oscillation_hfcwo_devices,,,cbdaiNtczS0101v,VARCHAR,3,High Frequency Chest Wall Oscillation (HFCWO) Devices
+suppliers,94,invasive_mechanical_ventilation,,,cbdaiNtczS0101w,VARCHAR,3,Invasive Mechanical Ventilation
+suppliers,95,intermittent_positive_pressure_breathing_ippb_devices,,,cbdaiNtczS0101x,VARCHAR,3,Intermittent Positive Pressure Breathing (IPPB) Devices
+suppliers,96,intrapulmonary_percussive_ventilation_devices,,,cbdaiNtczS0101y,VARCHAR,3,Intrapulmonary Percussive Ventilation Devices
+suppliers,97,mechanical_in_exsufflation_devices,,,cbdaiNtczS0101z,VARCHAR,3,Mechanical In-Exsufflation Devices
+suppliers,98,nebulizer_equipment_supplies,,,cbdaiNtczS0101A,VARCHAR,3,Nebulizer Equipment & Supplies
+suppliers,99,nebulizer_equipment_ultrasonic_and_controlled_dose,,,cbdaiNtczS0101B,VARCHAR,3,Nebulizer Equipment: Ultrasonic and Controlled Dose
+suppliers,100,oxygen_equipment_supplies,,,cbdaiNtczS0101C,VARCHAR,3,Oxygen Equipment & Supplies
+suppliers,101,respiratory_suction_pumps,,,cbdaiNtczS0101D,VARCHAR,3,Respiratory Suction Pumps
+suppliers,102,ventilators_accessories_supplies,,,cbdaiNtczS0101E,VARCHAR,3,"Ventilators, Accessories & Supplies"
+suppliers,103,surgical_dressings,,,cbdaiNtczS0101F,VARCHAR,3,Surgical Dressings
+suppliers,104,diabetic_shoes_inserts_prefabricated,,,cbdaiNtczS0101G,VARCHAR,3,Diabetic Shoes & Inserts: Prefabricated
+suppliers,105,diabetic_shoes_inserts_custom_fabricated,,,cbdaiNtczS0101H,VARCHAR,3,Diabetic Shoes & Inserts: Custom Fabricated

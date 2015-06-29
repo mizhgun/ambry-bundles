@@ -1,0 +1,12 @@
+build:
+    requirements: {}
+dependencies: {}
+sources:
+    suppliers:
+        description: Supplier Directory downloadable file
+        encoding: latin-1
+        file: SupplierData
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/lHEDiDZi8u192mtMWcdq6b45NBZpRi1UGIW4Qgqv9mQ?filename=Supplier_Revised_Flatfiles_06222015.zip&content_type=application%2Fzip%3B%20charset%3Dbinary
+        urlfiletype: zip
+views: {}
