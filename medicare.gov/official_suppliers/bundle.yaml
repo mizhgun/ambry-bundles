@@ -18,14 +18,14 @@ about:
     title: Supplier Directory
 contact_bundle:
     creator:
-        email: mizhgun@gmail.com
-        name: mizhgun
+        email: mikhail.kolganov@gmail.com
+        name: Mikhail Kolganov
         org: ''
         url: ''
     maintainer: {}
 contact_source:
     creator:
-        org: Medicare
+        org: The Centers for Medicare & Medicaid Services
         url: http://medicare.gov
     maintainer: {}
 external_documentation:
