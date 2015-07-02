@@ -1,0 +1,53 @@
+about:
+    access: example
+    footnote: null
+    grain: null
+    groups: []
+    license: null
+    processed: null
+    rights: null
+    source: null
+    space: null
+    subject: null
+    summary: These are the official datasets used on the Medicare.gov Supplier Directory
+        provided by the Centers for Medicare & Medicaid Services. They provide names,
+        addresses, and contact information for suppliers that provide services or
+        products under the Medicare program.
+    tags: []
+    time: 2015
+    title: Official Dialysis Facility Compare Data
+contact_bundle:
+    creator:
+        email: mikhail.kolganov@gmail.com
+        name: Mikhail Kolganov
+        org: ''
+        url: ''
+    maintainer: {}
+contact_source:
+    creator:
+        org: The Centers for Medicare & Medicaid Services
+        url: http://medicare.gov
+    maintainer: {}
+external_documentation:
+    dataset:
+        description: Main webpage for the dataset.
+        source: null
+        title: Official Dialysis Facility Compare Data
+        url: https://data.medicare.gov/data/dialysis-facility-compare
+identity:
+    bspace: null
+    btime: null
+    dataset: compare_dialysis_facility
+    id: dNaK8U00Ib
+    revision: 1
+    source: medicare.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: medicare.gov-compare_dialysis_facility-0.0.1~dNaK8U00Ib001
+    name: medicare.gov-compare_dialysis_facility
+    vid: dNaK8U00Ib001
+    vname: medicare.gov-compare_dialysis_facility-0.0.1
+process: {}
