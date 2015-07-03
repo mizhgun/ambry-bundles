@@ -1,0 +1,74 @@
+build: {}
+dependencies: {}
+sources:
+    deficiencies_data:
+        description: A list of all deficiencies currently listed on Nursing Home Compare,
+            including the nursing home that received the deficiency, the associated
+            inspection date, deficiency tag number, scope and severity, the current
+            status of the deficiency and the correction date. Data are presented as
+            one deficiency per row.
+        encoding: latin-1
+        file: Deficiencies_Download
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/WX4vAHJ0KtIqaW0zRyuRDjCeBAzMdUOpljYsNdtAXG0?filename=DMG_CSV_DOWNLOAD20150601.zip
+        urlfiletype: zip
+    ownership_data:
+        description: A list of ownership information for currently active nursing
+            homes.
+        encoding: latin-1
+        file: Ownership_Download
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/WX4vAHJ0KtIqaW0zRyuRDjCeBAzMdUOpljYsNdtAXG0?filename=DMG_CSV_DOWNLOAD20150601.zip
+        urlfiletype: zip
+    penalties_data:
+        description: A list of the fines and payment denials currently displayed on
+            Nursing Home Compare.
+        encoding: latin-1
+        file: Penalties_Download
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/WX4vAHJ0KtIqaW0zRyuRDjCeBAzMdUOpljYsNdtAXG0?filename=DMG_CSV_DOWNLOAD20150601.zip
+        urlfiletype: zip
+    providerinfo_data:
+        description: General information on currently active nursing homes, including
+            number of certified beds, quality measure scores, staffing and other information
+            used in the Five-Star Rating System. Data are presented as one row per
+            nursing home.
+        encoding: latin-1
+        file: ProviderInfo_Download
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/WX4vAHJ0KtIqaW0zRyuRDjCeBAzMdUOpljYsNdtAXG0?filename=DMG_CSV_DOWNLOAD20150601.zip
+        urlfiletype: zip
+    qualitymsr_data:
+        description: A list of the quality measure scores currently displayed on Nursing
+            Home Compare for each nursing home. Each row contains a specific quality
+            measure for a specific nursing home and includes the three-quarter score
+            average and the score for each individual quarter.
+        encoding: latin-1
+        file: QualityMsr_Download
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/WX4vAHJ0KtIqaW0zRyuRDjCeBAzMdUOpljYsNdtAXG0?filename=DMG_CSV_DOWNLOAD20150601.zip
+        urlfiletype: zip
+    stateaverages_data:
+        description: A list of a variety of averages for each state or territory as
+            well as the national average, including each quality measure, staffing,
+            fine amount and number of deficiencies. Each row displays a specific state
+            or territory, the associated measure and average.
+        encoding: latin-1
+        file: StateAverages_Download
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/WX4vAHJ0KtIqaW0zRyuRDjCeBAzMdUOpljYsNdtAXG0?filename=DMG_CSV_DOWNLOAD20150601.zip
+        urlfiletype: zip
+    surveysummary_data:
+        description: Nursing home summary information for the Health and Fire Safety
+            Inspections currently listed on Nursing Home Compare, including dates
+            of the three most recent inspections (including those with no deficiencies),
+            and counts of deficiencies sited, overall and within the categories listed
+            on Nursing Home Compare. Data are presented as one inspection cycle per
+            provider. Note that deficiency counts do not include citations from complaint
+            inspections.
+        encoding: latin-1
+        file: SurveySummary_Download
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/WX4vAHJ0KtIqaW0zRyuRDjCeBAzMdUOpljYsNdtAXG0?filename=DMG_CSV_DOWNLOAD20150601.zip
+        urlfiletype: zip
+views: {}

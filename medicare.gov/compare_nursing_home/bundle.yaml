@@ -1,0 +1,58 @@
+about:
+    access: example
+    footnote: null
+    grain: null
+    groups: []
+    license: null
+    processed: null
+    rights: null
+    source: null
+    space: null
+    subject: null
+    summary: These are the official datasets used on the Medicare.gov Nursing Home
+        Compare Website provided by the Centers for Medicare & Medicaid Services.
+        These data allow you to compare the quality of care at every Medicare and
+        Medicaid-certified nursing home in the country, including over 15,000 nationwide.
+    tags: []
+    time: 2015
+    title: Official Nursing Home Compare Data
+contact_bundle:
+    creator:
+        email: mikhail.kolganov@gmail.com
+        name: Mikhail Kolganov
+        org: ''
+        url: ''
+    maintainer: {}
+contact_source:
+    creator:
+        org: The Centers for Medicare & Medicaid Services
+        url: http://medicare.gov
+    maintainer: {}
+external_documentation:
+    dataset:
+        description: Main webpage for the dataset.
+        source: null
+        title: Official Dialysis Facility Compare Data
+        url: https://data.medicare.gov/data/nursing-home-compare
+    documentation:
+        description: Supporting Documentation
+        source: null
+        title: Downloadable Database Dictionary
+        url: https://data.medicare.gov/views/bg9k-emty/files/P1yFq1VJewAub2GTGRC-LrHkZi3T9oZSV5oGjc0pgIE?filename=DataMedicareGov_MetadataAllTabs_v07.xls
+identity:
+    bspace: null
+    btime: null
+    dataset: compare_nursing_home
+    id: dpTSZsQg4S
+    revision: 1
+    source: medicare.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: medicare.gov-compare_nursing_home-0.0.1~dpTSZsQg4S001
+    name: medicare.gov-compare_nursing_home
+    vid: dpTSZsQg4S001
+    vname: medicare.gov-compare_nursing_home-0.0.1
+process: {}

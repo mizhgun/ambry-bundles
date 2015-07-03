@@ -1,0 +1,14 @@
+-   name: medicare.gov-compare_nursing_home-qualitymsr_data
+    table: qualitymsr_data
+-   name: medicare.gov-compare_nursing_home-penalties_data
+    table: penalties_data
+-   name: medicare.gov-compare_nursing_home-stateaverages_data
+    table: stateaverages_data
+-   name: medicare.gov-compare_nursing_home-ownership_data
+    table: ownership_data
+-   name: medicare.gov-compare_nursing_home-deficiencies_data
+    table: deficiencies_data
+-   name: medicare.gov-compare_nursing_home-surveysummary_data
+    table: surveysummary_data
+-   name: medicare.gov-compare_nursing_home-providerinfo_data
+    table: providerinfo_data
