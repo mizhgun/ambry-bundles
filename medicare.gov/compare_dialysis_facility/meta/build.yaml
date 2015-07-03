@@ -3,8 +3,8 @@ build:
 dependencies: {}
 sources:
     fac_data:
-        description: Facilities
-        file: A list of all dialysis facilities registered with Medicare that includes addresses and phone numbers, as well as services and quality of care provided.
+        description: A list of all dialysis facilities registered with Medicare that includes addresses and phone numbers, as well as services and quality of care provided.
+        file: DFC_SOCRATA_FAC_DATA
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?filename=DFCompare_Revised_FlatFiles.zip
         urlfiletype: zip
