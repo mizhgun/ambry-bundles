@@ -1,5 +1,6 @@
 coverage:
     geo: []
-    grain: []
+    grain:
+    - facility
     time:
     - 2015

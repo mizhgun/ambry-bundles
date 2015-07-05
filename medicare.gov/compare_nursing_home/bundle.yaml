@@ -1,7 +1,7 @@
 about:
-    access: example
+    access: restricted
     footnote: null
-    grain: null
+    grain: facility
     groups: []
     license: null
     processed: null
@@ -42,17 +42,17 @@ external_documentation:
 identity:
     bspace: null
     btime: null
-    dataset: compare_nursing_home
+    dataset: compare
     id: dpTSZsQg4S
     revision: 1
     source: medicare.gov
-    subset: null
+    subset: nursing_home
     type: null
     variation: null
     version: 0.0.1
 names:
-    fqname: medicare.gov-compare_nursing_home-0.0.1~dpTSZsQg4S001
-    name: medicare.gov-compare_nursing_home
+    fqname: medicare.gov-compare-nursing_home-0.0.1~dpTSZsQg4S001
+    name: medicare.gov-compare-nursing_home
     vid: dpTSZsQg4S001
-    vname: medicare.gov-compare_nursing_home-0.0.1
+    vname: medicare.gov-compare-nursing_home-0.0.1
 process: {}

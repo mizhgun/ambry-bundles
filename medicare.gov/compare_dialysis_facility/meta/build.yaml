@@ -9,13 +9,11 @@ sources:
         file: DFC_SOCRATA_FAC_DATA
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?filename=DFCompare_Revised_FlatFiles.zip
-        urlfiletype: zip
     national_data:
         description: National averages of common dialysis quality measures.
         file: DFC_SOCRATA_NATIONAL_DATA
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?filename=DFCompare_Revised_FlatFiles.zip
-        urlfiletype: zip
     qip_data:
         description: 'The data set includes the number of eligible patients by clinical
             measure; % patients with Hemoglobin > 12; ESRD QIP data by facility: %
@@ -33,11 +31,9 @@ sources:
         file: PY2015
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?filename=DFCompare_Revised_FlatFiles.zip
-        urlfiletype: zip
     state_data:
         description: State averages of common dialysis quality measures.
         file: DFC_SOCRATA_STATE_DATA
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?filename=DFCompare_Revised_FlatFiles.zip
-        urlfiletype: zip
 views: {}

@@ -1,7 +1,7 @@
 about:
-    access: example
+    access: restricted
     footnote: null
-    grain: null
+    grain: facility
     groups: []
     license: public
     processed: null
@@ -37,17 +37,17 @@ external_documentation:
 identity:
     bspace: null
     btime: null
-    dataset: official_suppliers
+    dataset: compare
     id: dbdaiNtczS
     revision: 1
     source: medicare.gov
-    subset: null
+    subset: suppliers
     type: null
     variation: null
     version: 0.0.1
 names:
-    fqname: medicare.gov-official_suppliers-0.0.1~dbdaiNtczS001
-    name: medicare.gov-official_suppliers
+    fqname: medicare.gov-compare-suppliers-0.0.1~dbdaiNtczS001
+    name: medicare.gov-compare-suppliers
     vid: dbdaiNtczS001
-    vname: medicare.gov-official_suppliers-0.0.1
+    vname: medicare.gov-compare-suppliers-0.0.1
 process: {}

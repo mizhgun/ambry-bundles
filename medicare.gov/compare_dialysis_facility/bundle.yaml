@@ -1,7 +1,7 @@
 about:
-    access: example
+    access: restricted
     footnote: null
-    grain: null
+    grain: facility
     groups: []
     license: null
     processed: null
@@ -37,17 +37,17 @@ external_documentation:
 identity:
     bspace: null
     btime: null
-    dataset: compare_dialysis_facility
+    dataset: compare
     id: dNaK8U00Ib
     revision: 1
     source: medicare.gov
-    subset: null
+    subset: dialysis
     type: null
     variation: null
     version: 0.0.1
 names:
-    fqname: medicare.gov-compare_dialysis_facility-0.0.1~dNaK8U00Ib001
-    name: medicare.gov-compare_dialysis_facility
+    fqname: medicare.gov-compare-dialysis-0.0.1~dNaK8U00Ib001
+    name: medicare.gov-compare-dialysis
     vid: dNaK8U00Ib001
-    vname: medicare.gov-compare_dialysis_facility-0.0.1
+    vname: medicare.gov-compare-dialysis-0.0.1
 process: {}

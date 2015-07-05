@@ -1,8 +1,8 @@
--   name: medicare.gov-compare_dialysis_facility-state_data
+-   name: medicare.gov-compare-dialysis-state_data
     table: state_data
--   name: medicare.gov-compare_dialysis_facility-fac_data
+-   name: medicare.gov-compare-dialysis-fac_data
     table: fac_data
--   name: medicare.gov-compare_dialysis_facility-national_data
+-   name: medicare.gov-compare-dialysis-national_data
     table: national_data
--   name: medicare.gov-compare_dialysis_facility-qip_data
+-   name: medicare.gov-compare-dialysis-qip_data
     table: qip_data
