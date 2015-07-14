@@ -1,0 +1,304 @@
+build: {}
+dependencies: {}
+sources:
+    fy2013_distribution_of_net_change_in_base_op_drg_payment_amt:
+        description: HVBP Distribution of net change in base operating DRG payment amount
+        encoding: latin-1
+        file: FY2013_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    fy2013_net_change_in_base_op_drg_payment_amt:
+        description: HVBP Net change in base operating DRG payment amount
+        encoding: latin-1
+        file: FY2013_Net_Change_in_Base_Op_DRG_Payment_Amt
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    fy2013_percent_change_in_medicare_payments:
+        description: HVBP Percent change in base operating DRG payment amount
+        encoding: latin-1
+        file: FY2013_Percent_Change_in_Medicare_Payments
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    fy2013_value_based_incentive_payment_amount:
+        description: HVBP Incentive payment amount
+        encoding: latin-1
+        file: FY2013_Value_Based_Incentive_Payment_Amount
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    footnote_crosswalk:
+        description: Footnote Crosswalk
+        encoding: latin-1
+        file: Footnote Crosswalk
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hcahps_hospital:
+        description: Hospital Consumer Assessment of Healthcare Providers and Systems survey - Hospital-level results
+        encoding: latin-1
+        file: HCAHPS - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hcahps_national:
+        description: Hospital Consumer Assessment of Healthcare Providers and Systems survey - National-level results
+        encoding: latin-1
+        file: HCAHPS - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hcahps_state:
+        description: Hospital Consumer Assessment of Healthcare Providers and Systems survey - State-level results
+        encoding: latin-1
+        file: HCAHPS - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hospital_quarterly_hac_domain_hospital:
+        description: Hospital-Acquired Conditions Reduction Program (HACRP) measures results
+        encoding: latin-1
+        file: HOSPITAL_QUARTERLY_HAC_DOMAIN_HOSPITAL
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hospital_quarterly_qualitymeasure_ipfqr_hospital:
+        description: Inpatient Psychiatric Facility Quality Reporting (IPFQR) Program - Hospital-level results
+        encoding: latin-1
+        file: HOSPITAL_QUARTERLY_QUALITYMEASURE_IPFQR_HOSPITAL
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hospital_quarterly_qualitymeasure_ipfqr_national:
+        description: Inpatient Psychiatric Facility Quality Reporting (IPFQR) Program - National-level results
+        encoding: latin-1
+        file: HOSPITAL_QUARTERLY_QUALITYMEASURE_IPFQR_NATIONAL
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hospital_quarterly_qualitymeasure_ipfqr_state:
+        description: Inpatient Psychiatric Facility Quality Reporting (IPFQR) Program - State-level results
+        encoding: latin-1
+        file: HOSPITAL_QUARTERLY_QUALITYMEASURE_IPFQR_STATE
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hospital_quarterly_qualitymeasure_pch_hospital:
+        description: PPS-Exempt Cancer Hospital Quality Reporting (PCHQR) Program measure results
+        encoding: latin-1
+        file: HOSPITAL_QUARTERLY_QUALITYMEASURE_PCH_HOSPITAL
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    healthcare_associated_infections_hospital:
+        description: Healthcare Associated Infections0(HAI) measures: Hospital-level results
+        encoding: latin-1
+        file: Healthcare Associated Infections - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    healthcare_associated_infections_national:
+        description: Healthcare Associated Infections0(HAI) measures: National-level results
+        encoding: latin-1
+        file: Healthcare Associated Infections - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    healthcare_associated_infections_state:
+        description: Healthcare Associated Infections0(HAI) measures: State-level results
+        encoding: latin-1
+        file: Healthcare Associated Infections - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    heart_attack_payment_hospital:
+        description: Acute Myocardial Infarction payment measure: Hospital-level results
+        encoding: latin-1
+        file: Heart Attack Payment - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    heart_attack_payment_national:
+        description: Acute Myocardial Infarction payment measure: National-level results
+        encoding: latin-1
+        file: Heart Attack Payment - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    heart_attack_payment_state:
+        description: Acute Myocardial Infarction payment measure: State-level results
+        encoding: latin-1
+        file: Heart Attack Payment - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hospital_general_information:
+        description: General information on hospitals within the dataset
+        encoding: latin-1
+        file: Hospital General Information
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    measure_dates:
+        description: Current collection dates for measures included in the downloadable database
+        encoding: latin-1
+        file: Measure Dates
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    medicare_hospital_spending_by_claim:
+        description: Medicare Spending per Beneficiary breakdowns by claim type
+        encoding: latin-1
+        file: Medicare Hospital Spending by Claim
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    medicare_hospital_spending_per_patient_hospital:
+        description: Medicare Spending per Beneficiary measure: Hospital-level results
+        encoding: latin-1
+        file: Medicare Hospital Spending per Patient - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    medicare_hospital_spending_per_patient_national:
+        description: Medicare Spending per Beneficiary measure: National-level results
+        encoding: latin-1
+        file: Medicare Hospital Spending per Patient - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    medicare_hospital_spending_per_patient_state:
+        description: Medicare Spending per Beneficiary measure: State-level results
+        encoding: latin-1
+        file: Medicare Hospital Spending per Patient - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    medicare_volume_hospital:
+        description: Medicare Spending per Beneficiary measure: Hospital-level results
+        encoding: latin-1
+        file: Medicare Volume - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    medicare_volume_national:
+        description: Medicare Spending per Beneficiary measure: National-level results
+        encoding: latin-1
+        file: Medicare Volume - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    medicare_volume_state:
+        description: Medicare Spending per Beneficiary measure: State-level results
+        encoding: latin-1
+        file: Medicare Volume - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    outpatient_imaging_efficiency_hospital:
+        description: Outpatient Imaging Efficiency (OIE) measures: Hospital-level results
+        encoding: latin-1
+        file: Outpatient Imaging Efficiency - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    outpatient_imaging_efficiency_national:
+        description: Outpatient Imaging Efficiency (OIE) measures: National-level results
+        encoding: latin-1
+        file: Outpatient Imaging Efficiency - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    outpatient_imaging_efficiency_state:
+        description: Outpatient Imaging Efficiency (OIE) measures: State-level results
+        encoding: latin-1
+        file: Outpatient Imaging Efficiency - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    outpatient_procedures_volume:
+        description: Hospital outpatient surgical procedures volume measure results
+        encoding: latin-1
+        file: Outpatient Procedures - Volume
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    readmission_reduction:
+        description: Hospital Readmission Reduction Program (HRRP) measures results
+        encoding: latin-1
+        file: READMISSION REDUCTION
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    readmissions_complications_and_deaths_hospital:
+        description: 30-day mortality and readmission measures, and AHRQ patient safety indicators: Hospital-level results
+        encoding: latin-1
+        file: Readmissions Complications and Deaths - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    readmissions_complications_and_deaths_national:
+        description: 30-day mortality and readmission measures, and AHRQ patient safety indicators: National-level results
+        encoding: latin-1
+        file: Readmissions Complications and Deaths - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    readmissions_complications_and_deaths_state:
+        description: 30-day mortality and readmission measures, and AHRQ patient safety indicators: State-level results
+        encoding: latin-1
+        file: Readmissions Complications and Deaths - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    structural_measures_hospital:
+        description: Structural measures: Hospital-level results
+        encoding: latin-1
+        file: Structural Measures - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    timely_and_effective_care_hospital:
+        description: Timely and Effective Care - Hospital
+        encoding: latin-1
+        file: Timely and Effective Care - Hospital
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    timely_and_effective_care_national:
+        description: Timely and Effective Care - National
+        encoding: latin-1
+        file: Timely and Effective Care - National
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    timely_and_effective_care_state:
+        description: Timely and Effective Care - State
+        encoding: latin-1
+        file: Timely and Effective Care - State
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_efficiency_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – FY 2015 data and scoring
+        encoding: latin-1
+        file: hvbp_Efficiency_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_ami_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – Acute Myocardial Infarction (AMI) measures results
+        encoding: latin-1
+        file: hvbp_ami_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_hai_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – Healthcare-Associated Infections (HAI) measures results
+        encoding: latin-1
+        file: hvbp_hai_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_hcahps_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – HCAHPS measures results
+        encoding: latin-1
+        file: hvbp_hcahps_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_hf_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – Heart Failure measures results
+        encoding: latin-1
+        file: hvbp_hf_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_outcome_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – Outcome of care measures results
+        encoding: latin-1
+        file: hvbp_outcome_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_pn_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – Pneumonia measures results
+        encoding: latin-1
+        file: hvbp_pn_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_quarters:
+        description: Hospital Value-Based Purchasing (HVBP) – Performance and baseline periods
+        encoding: latin-1
+        file: hvbp_quarters
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_scip_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – Surgical Care Improvement Project measures results
+        encoding: latin-1
+        file: hvbp_scip_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+    hvbp_tps_02_18_2015:
+        description: Hospital Value-Based Purchasing (HVBP) – Overall performance score
+        encoding: latin-1
+        file: hvbp_tps_02_18_2015
+        filetype: csv
+        url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
+views: {}

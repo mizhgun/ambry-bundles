@@ -1,0 +1,52 @@
+about:
+    access: restricted
+    footnote: null
+    grain: facility
+    groups: []
+    license: public
+    processed: null
+    rights: null
+    source: null
+    space: US
+    subject: null
+    summary: These are the official datasets used on the Medicare.gov Hospital Compare Website
+        provided by the Centers for Medicare & Medicaid Services. These data allow you to compare
+        the quality of care at over 4,000 Medicare-certified hospitals across the country.
+    tags: []
+    time: 2013/2015
+    title: Hospital Compare datasets
+contact_bundle:
+    creator:
+        email: mikhail.kolganov@gmail.com
+        name: Mikhail Kolganov
+        org: ''
+        url: ''
+    maintainer: {}
+contact_source:
+    creator:
+        org: The Centers for Medicare & Medicaid Services
+        url: http://medicare.gov
+    maintainer: {}
+external_documentation:
+    dataset:
+        description: Main webpage for the dataset.
+        source: null
+        title: Hospital Compare datasets
+        url: https://data.medicare.gov/data/hospital-compare
+identity:
+    bspace: null
+    btime: null
+    dataset: compare_hospitals
+    id: dY2RTv6wP9
+    revision: 1
+    source: medicare.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: medicare.gov-compare-hospitals-0.0.1~dY2RTv6wP9001
+    name: medicare.gov-compare-hospitals
+    vid: dY2RTv6wP9001
+    vname: medicare.gov-compare-hospitals-0.0.1
+process: {}
