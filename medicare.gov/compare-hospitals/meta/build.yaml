@@ -80,37 +80,37 @@ sources:
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     healthcare_associated_infections_hospital:
-        description: Healthcare Associated Infections0(HAI) measures: Hospital-level results
+        description: "Healthcare Associated Infections0(HAI) measures: Hospital-level results"
         encoding: latin-1
         file: Healthcare Associated Infections - Hospital
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     healthcare_associated_infections_national:
-        description: Healthcare Associated Infections0(HAI) measures: National-level results
+        description: "Healthcare Associated Infections0(HAI) measures: National-level results"
         encoding: latin-1
         file: Healthcare Associated Infections - National
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     healthcare_associated_infections_state:
-        description: Healthcare Associated Infections0(HAI) measures: State-level results
+        description: "Healthcare Associated Infections0(HAI) measures: State-level results"
         encoding: latin-1
         file: Healthcare Associated Infections - State
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     heart_attack_payment_hospital:
-        description: Acute Myocardial Infarction payment measure: Hospital-level results
+        description: "Acute Myocardial Infarction payment measure: Hospital-level results"
         encoding: latin-1
         file: Heart Attack Payment - Hospital
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     heart_attack_payment_national:
-        description: Acute Myocardial Infarction payment measure: National-level results
+        description: "Acute Myocardial Infarction payment measure: National-level results"
         encoding: latin-1
         file: Heart Attack Payment - National
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     heart_attack_payment_state:
-        description: Acute Myocardial Infarction payment measure: State-level results
+        description: "Acute Myocardial Infarction payment measure: State-level results"
         encoding: latin-1
         file: Heart Attack Payment - State
         filetype: csv
@@ -134,55 +134,55 @@ sources:
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     medicare_hospital_spending_per_patient_hospital:
-        description: Medicare Spending per Beneficiary measure: Hospital-level results
+        description: "Medicare Spending per Beneficiary measure: Hospital-level results"
         encoding: latin-1
         file: Medicare Hospital Spending per Patient - Hospital
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     medicare_hospital_spending_per_patient_national:
-        description: Medicare Spending per Beneficiary measure: National-level results
+        description: "Medicare Spending per Beneficiary measure: National-level results"
         encoding: latin-1
         file: Medicare Hospital Spending per Patient - National
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     medicare_hospital_spending_per_patient_state:
-        description: Medicare Spending per Beneficiary measure: State-level results
+        description: "Medicare Spending per Beneficiary measure: State-level results"
         encoding: latin-1
         file: Medicare Hospital Spending per Patient - State
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     medicare_volume_hospital:
-        description: Medicare Spending per Beneficiary measure: Hospital-level results
+        description: "Medicare Spending per Beneficiary measure: Hospital-level results"
         encoding: latin-1
         file: Medicare Volume - Hospital
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     medicare_volume_national:
-        description: Medicare Spending per Beneficiary measure: National-level results
+        description: "Medicare Spending per Beneficiary measure: National-level results"
         encoding: latin-1
         file: Medicare Volume - National
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     medicare_volume_state:
-        description: Medicare Spending per Beneficiary measure: State-level results
+        description: "Medicare Spending per Beneficiary measure: State-level results"
         encoding: latin-1
         file: Medicare Volume - State
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     outpatient_imaging_efficiency_hospital:
-        description: Outpatient Imaging Efficiency (OIE) measures: Hospital-level results
+        description: "Outpatient Imaging Efficiency (OIE) measures: Hospital-level results"
         encoding: latin-1
         file: Outpatient Imaging Efficiency - Hospital
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     outpatient_imaging_efficiency_national:
-        description: Outpatient Imaging Efficiency (OIE) measures: National-level results
+        description: "Outpatient Imaging Efficiency (OIE) measures: National-level results"
         encoding: latin-1
         file: Outpatient Imaging Efficiency - National
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     outpatient_imaging_efficiency_state:
-        description: Outpatient Imaging Efficiency (OIE) measures: State-level results
+        description: "Outpatient Imaging Efficiency (OIE) measures: State-level results"
         encoding: latin-1
         file: Outpatient Imaging Efficiency - State
         filetype: csv
@@ -200,25 +200,25 @@ sources:
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     readmissions_complications_and_deaths_hospital:
-        description: 30-day mortality and readmission measures, and AHRQ patient safety indicators: Hospital-level results
+        description: "30-day mortality and readmission measures, and AHRQ patient safety indicators: Hospital-level results"
         encoding: latin-1
         file: Readmissions Complications and Deaths - Hospital
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     readmissions_complications_and_deaths_national:
-        description: 30-day mortality and readmission measures, and AHRQ patient safety indicators: National-level results
+        description: "30-day mortality and readmission measures, and AHRQ patient safety indicators: National-level results"
         encoding: latin-1
         file: Readmissions Complications and Deaths - National
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     readmissions_complications_and_deaths_state:
-        description: 30-day mortality and readmission measures, and AHRQ patient safety indicators: State-level results
+        description: "30-day mortality and readmission measures, and AHRQ patient safety indicators: State-level results"
         encoding: latin-1
         file: Readmissions Complications and Deaths - State
         filetype: csv
         url: https://data.medicare.gov/views/bg9k-emty/files/KxwjKCOUbqNfGZHNY70XZAKHdnlhHQrnVxA-tXba0Bg?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital.zip
     structural_measures_hospital:
-        description: Structural measures: Hospital-level results
+        description: "Structural measures: Hospital-level results"
         encoding: latin-1
         file: Structural Measures - Hospital
         filetype: csv

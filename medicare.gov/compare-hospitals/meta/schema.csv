@@ -1,1 +1,98 @@
-"table","seq","column","is_pk","is_fk","type","size","description"
+table,seq,column,is_pk,is_fk,id,type,description
+hvbp_scip_02_18_2015,1,id,1,,tY2RTv6wP901,INTEGER,Hospital Value-Based Purchasing (HVBP) – Surgical Care Improvement Project measures results
+,,,,,,,
+medicare_hospital_spending_per_patient_national,1,id,1,,tY2RTv6wP902,INTEGER,Medicare Spending per Beneficiary measure: National-level results
+,,,,,,,
+healthcare_associated_infections_state,1,id,1,,tY2RTv6wP903,INTEGER,Healthcare Associated Infections0(HAI) measures: State-level results
+,,,,,,,
+fy2013_net_change_in_base_op_drg_payment_amt,1,id,1,,tY2RTv6wP904,INTEGER,HVBP Net change in base operating DRG payment amount
+,,,,,,,
+timely_and_effective_care_hospital,1,id,1,,tY2RTv6wP905,INTEGER,Timely and Effective Care - Hospital
+,,,,,,,
+hcahps_national,1,id,1,,tY2RTv6wP906,INTEGER,Hospital Consumer Assessment of Healthcare Providers and Systems survey - National-level results
+,,,,,,,
+hvbp_hai_02_18_2015,1,id,1,,tY2RTv6wP907,INTEGER,Hospital Value-Based Purchasing (HVBP) – Healthcare-Associated Infections (HAI) measures results
+,,,,,,,
+hospital_quarterly_qualitymeasure_ipfqr_national,1,id,1,,tY2RTv6wP908,INTEGER,Inpatient Psychiatric Facility Quality Reporting (IPFQR) Program - National-level results
+,,,,,,,
+outpatient_imaging_efficiency_national,1,id,1,,tY2RTv6wP909,INTEGER,Outpatient Imaging Efficiency (OIE) measures: National-level results
+,,,,,,,
+footnote_crosswalk,1,id,1,,tY2RTv6wP90a,INTEGER,Footnote Crosswalk
+,,,,,,,
+medicare_volume_state,1,id,1,,tY2RTv6wP90b,INTEGER,Medicare Spending per Beneficiary measure: State-level results
+,,,,,,,
+hcahps_hospital,1,id,1,,tY2RTv6wP90c,INTEGER,Hospital Consumer Assessment of Healthcare Providers and Systems survey - Hospital-level results
+,,,,,,,
+heart_attack_payment_national,1,id,1,,tY2RTv6wP90d,INTEGER,Acute Myocardial Infarction payment measure: National-level results
+,,,,,,,
+hcahps_state,1,id,1,,tY2RTv6wP90e,INTEGER,Hospital Consumer Assessment of Healthcare Providers and Systems survey - State-level results
+,,,,,,,
+hvbp_hf_02_18_2015,1,id,1,,tY2RTv6wP90f,INTEGER,Hospital Value-Based Purchasing (HVBP) – Heart Failure measures results
+,,,,,,,
+healthcare_associated_infections_national,1,id,1,,tY2RTv6wP90g,INTEGER,Healthcare Associated Infections0(HAI) measures: National-level results
+,,,,,,,
+fy2013_distribution_of_net_change_in_base_op_drg_payment_amt,1,id,1,,tY2RTv6wP90h,INTEGER,HVBP Distribution of net change in base operating DRG payment amount
+,,,,,,,
+hospital_general_information,1,id,1,,tY2RTv6wP90i,INTEGER,General information on hospitals within the dataset
+,,,,,,,
+healthcare_associated_infections_hospital,1,id,1,,tY2RTv6wP90j,INTEGER,Healthcare Associated Infections0(HAI) measures: Hospital-level results
+,,,,,,,
+timely_and_effective_care_state,1,id,1,,tY2RTv6wP90k,INTEGER,Timely and Effective Care - State
+,,,,,,,
+hvbp_hcahps_02_18_2015,1,id,1,,tY2RTv6wP90l,INTEGER,Hospital Value-Based Purchasing (HVBP) – HCAHPS measures results
+,,,,,,,
+timely_and_effective_care_national,1,id,1,,tY2RTv6wP90m,INTEGER,Timely and Effective Care - National
+,,,,,,,
+fy2013_percent_change_in_medicare_payments,1,id,1,,tY2RTv6wP90n,INTEGER,HVBP Percent change in base operating DRG payment amount
+,,,,,,,
+fy2013_value_based_incentive_payment_amount,1,id,1,,tY2RTv6wP90o,INTEGER,HVBP Incentive payment amount
+,,,,,,,
+readmissions_complications_and_deaths_hospital,1,id,1,,tY2RTv6wP90p,INTEGER,"30-day mortality and readmission measures, and AHRQ patient safety indicators: Hospital-level results"
+,,,,,,,
+medicare_hospital_spending_per_patient_hospital,1,id,1,,tY2RTv6wP90q,INTEGER,Medicare Spending per Beneficiary measure: Hospital-level results
+,,,,,,,
+medicare_hospital_spending_by_claim,1,id,1,,tY2RTv6wP90r,INTEGER,Medicare Spending per Beneficiary breakdowns by claim type
+,,,,,,,
+heart_attack_payment_hospital,1,id,1,,tY2RTv6wP90s,INTEGER,Acute Myocardial Infarction payment measure: Hospital-level results
+,,,,,,,
+outpatient_procedures_volume,1,id,1,,tY2RTv6wP90t,INTEGER,Hospital outpatient surgical procedures volume measure results
+,,,,,,,
+medicare_volume_national,1,id,1,,tY2RTv6wP90u,INTEGER,Medicare Spending per Beneficiary measure: National-level results
+,,,,,,,
+hvbp_quarters,1,id,1,,tY2RTv6wP90v,INTEGER,Hospital Value-Based Purchasing (HVBP) – Performance and baseline periods
+,,,,,,,
+hospital_quarterly_hac_domain_hospital,1,id,1,,tY2RTv6wP90w,INTEGER,Hospital-Acquired Conditions Reduction Program (HACRP) measures results
+,,,,,,,
+hvbp_tps_02_18_2015,1,id,1,,tY2RTv6wP90x,INTEGER,Hospital Value-Based Purchasing (HVBP) – Overall performance score
+,,,,,,,
+hvbp_efficiency_02_18_2015,1,id,1,,tY2RTv6wP90y,INTEGER,Hospital Value-Based Purchasing (HVBP) – FY 2015 data and scoring
+,,,,,,,
+outpatient_imaging_efficiency_state,1,id,1,,tY2RTv6wP90z,INTEGER,Outpatient Imaging Efficiency (OIE) measures: State-level results
+,,,,,,,
+measure_dates,1,id,1,,tY2RTv6wP90A,INTEGER,Current collection dates for measures included in the downloadable database
+,,,,,,,
+hvbp_outcome_02_18_2015,1,id,1,,tY2RTv6wP90B,INTEGER,Hospital Value-Based Purchasing (HVBP) – Outcome of care measures results
+,,,,,,,
+structural_measures_hospital,1,id,1,,tY2RTv6wP90C,INTEGER,Structural measures: Hospital-level results
+,,,,,,,
+medicare_volume_hospital,1,id,1,,tY2RTv6wP90D,INTEGER,Medicare Spending per Beneficiary measure: Hospital-level results
+,,,,,,,
+hvbp_pn_02_18_2015,1,id,1,,tY2RTv6wP90E,INTEGER,Hospital Value-Based Purchasing (HVBP) – Pneumonia measures results
+,,,,,,,
+hospital_quarterly_qualitymeasure_ipfqr_state,1,id,1,,tY2RTv6wP90F,INTEGER,Inpatient Psychiatric Facility Quality Reporting (IPFQR) Program - State-level results
+,,,,,,,
+hospital_quarterly_qualitymeasure_pch_hospital,1,id,1,,tY2RTv6wP90G,INTEGER,PPS-Exempt Cancer Hospital Quality Reporting (PCHQR) Program measure results
+,,,,,,,
+readmission_reduction,1,id,1,,tY2RTv6wP90H,INTEGER,Hospital Readmission Reduction Program (HRRP) measures results
+,,,,,,,
+heart_attack_payment_state,1,id,1,,tY2RTv6wP90I,INTEGER,Acute Myocardial Infarction payment measure: State-level results
+,,,,,,,
+outpatient_imaging_efficiency_hospital,1,id,1,,tY2RTv6wP90J,INTEGER,Outpatient Imaging Efficiency (OIE) measures: Hospital-level results
+,,,,,,,
+medicare_hospital_spending_per_patient_state,1,id,1,,tY2RTv6wP90K,INTEGER,Medicare Spending per Beneficiary measure: State-level results
+,,,,,,,
+readmissions_complications_and_deaths_national,1,id,1,,tY2RTv6wP90L,INTEGER,"30-day mortality and readmission measures, and AHRQ patient safety indicators: National-level results"
+,,,,,,,
+readmissions_complications_and_deaths_state,1,id,1,,tY2RTv6wP90M,INTEGER,"30-day mortality and readmission measures, and AHRQ patient safety indicators: State-level results"
+,,,,,,,
+hvbp_ami_02_18_2015,1,id,1,,tY2RTv6wP90N,INTEGER,Hospital Value-Based Purchasing (HVBP) – Acute Myocardial Infarction (AMI) measures results

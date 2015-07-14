@@ -9,9 +9,10 @@ about:
     source: null
     space: US
     subject: null
-    summary: These are the official datasets used on the Medicare.gov Hospital Compare Website
-        provided by the Centers for Medicare & Medicaid Services. These data allow you to compare
-        the quality of care at over 4,000 Medicare-certified hospitals across the country.
+    summary: These are the official datasets used on the Medicare.gov Hospital Compare
+        Website provided by the Centers for Medicare & Medicaid Services. These data
+        allow you to compare the quality of care at over 4,000 Medicare-certified
+        hospitals across the country.
     tags: []
     time: 2013/2015
     title: Hospital Compare datasets
@@ -45,8 +46,8 @@ identity:
     variation: null
     version: 0.0.1
 names:
-    fqname: medicare.gov-compare-hospitals-0.0.1~dY2RTv6wP9001
-    name: medicare.gov-compare-hospitals
+    fqname: medicare.gov-compare_hospitals-0.0.1~dY2RTv6wP9001
+    name: medicare.gov-compare_hospitals
     vid: dY2RTv6wP9001
-    vname: medicare.gov-compare-hospitals-0.0.1
+    vname: medicare.gov-compare_hospitals-0.0.1
 process: {}
