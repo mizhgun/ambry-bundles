@@ -1,4 +1,10 @@
 coverage:
-    geo: []
-    grain: []
-    time: []
+    geo:
+    - 0a
+    grain:
+    - facility
+    time:
+    - 2013
+    - 2014
+    - 2015
+    - '2015'
