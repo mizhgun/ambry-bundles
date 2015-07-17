@@ -163,14 +163,26 @@ hvbp_scip_02_18_2015,6,state,,,cY2RTv6wP904006,VARCHAR,2,State,,
 hvbp_scip_02_18_2015,7,zip_code,,,cY2RTv6wP904007,VARCHAR,10,ZIP Code,,1
 hvbp_scip_02_18_2015,8,county_name,,,cY2RTv6wP904008,VARCHAR,22,County Name,,
 hvbp_scip_02_18_2015,9,scip_card_2_performance_rate,,,cY2RTv6wP904009,REAL,,SCIP-Card-2 Performance Rate,float_na_caster,1
-hvbp_scip_02_18_2015,10,scip_card_2_achievement_points,,,cY2RTv6wP90400a,REAL,,SCIP-Card-2 Achievement Points,point_float_caster,
-hvbp_scip_02_18_2015,11,scip_card_2_improvement_points,,,cY2RTv6wP90400b,REAL,,SCIP-Card-2 Improvement Points,point_float_caster,
-hvbp_scip_02_18_2015,12,scip_card_2_measure_score,,,cY2RTv6wP90400c,REAL,,SCIP-Card-2 Measure Score,point_float_caster,
+hvbp_scip_02_18_2015,10,scip_card_2_achievement_points,,,cY2RTv6wP90400a,VARCHAR,13,SCIP-Card-2 Achievement Points,,
+hvbp_scip_02_18_2015,11,scip_card_2_improvement_points,,,cY2RTv6wP90400b,VARCHAR,13,SCIP-Card-2 Improvement Points,,
+hvbp_scip_02_18_2015,12,scip_card_2_measure_score,,,cY2RTv6wP90400c,VARCHAR,13,SCIP-Card-2 Measure Score,,
 hvbp_scip_02_18_2015,13,scip_vte_2_performance_rate,,,cY2RTv6wP90400d,REAL,,SCIP-VTE-2 Performance Rate,float_na_caster,1
-hvbp_scip_02_18_2015,14,scip_vte_2_achievement_points,,,cY2RTv6wP90400e,REAL,,SCIP-VTE-2 Achievement Points,point_float_caster,
-hvbp_scip_02_18_2015,15,scip_vte_2_improvement_points,,,cY2RTv6wP90400f,REAL,,SCIP-VTE-2 Improvement Points,point_float_caster,
-hvbp_scip_02_18_2015,16,scip_vte_2_measure_score,,,cY2RTv6wP90400g,REAL,,SCIP-VTE-2 Measure Score,point_float_caster,
+hvbp_scip_02_18_2015,14,scip_vte_2_achievement_points,,,cY2RTv6wP90400e,VARCHAR,13,SCIP-VTE-2 Achievement Points,,
+hvbp_scip_02_18_2015,15,scip_vte_2_improvement_points,,,cY2RTv6wP90400f,VARCHAR,13,SCIP-VTE-2 Improvement Points,,
+hvbp_scip_02_18_2015,16,scip_vte_2_measure_score,,,cY2RTv6wP90400g,VARCHAR,13,SCIP-VTE-2 Measure Score,,
 hvbp_scip_02_18_2015,17,scip_condition_procedure_score,,,cY2RTv6wP90400h,INTEGER,2,SCIP Condition/Procedure Score,int_na_caster,1
+hvbp_scip_02_18_2015,18,scip_card_2_achievement_points_nom,,,cY2RTv6wP90400i,INTEGER,2,SCIP-Card-2 Achievement Points Nominator,,
+hvbp_scip_02_18_2015,19,scip_card_2_improvement_points_nom,,,cY2RTv6wP90400j,INTEGER,1,SCIP-Card-2 Improvement Points Points Nominator,,
+hvbp_scip_02_18_2015,20,scip_card_2_measure_score_nom,,,cY2RTv6wP90400k,INTEGER,2,SCIP-Card-2 Measure Score Points Nominator,,
+hvbp_scip_02_18_2015,21,scip_vte_2_achievement_points_nom,,,cY2RTv6wP90400l,INTEGER,2,SCIP-VTE-2 Achievement Points Points Nominator,,
+hvbp_scip_02_18_2015,22,scip_vte_2_improvement_points_nom,,,cY2RTv6wP90400m,INTEGER,1,SCIP-VTE-2 Improvement Points Points Nominator,,
+hvbp_scip_02_18_2015,23,scip_vte_2_measure_score_nom,,,cY2RTv6wP90400n,INTEGER,2,SCIP-VTE-2 Measure Score Points Nominator,,
+hvbp_scip_02_18_2015,24,scip_card_2_achievement_points_denom,,,cY2RTv6wP90400o,INTEGER,2,SCIP-Card-2 Achievement Points Denominator,,
+hvbp_scip_02_18_2015,25,scip_card_2_improvement_points_denom,,,cY2RTv6wP90400p,INTEGER,1,SCIP-Card-2 Improvement Points Points Denominator,,
+hvbp_scip_02_18_2015,26,scip_card_2_measure_score_denom,,,cY2RTv6wP90400q,INTEGER,2,SCIP-Card-2 Measure Score Points Denominator,,
+hvbp_scip_02_18_2015,27,scip_vte_2_achievement_points_denom,,,cY2RTv6wP90400r,INTEGER,2,SCIP-VTE-2 Achievement Points Points Denominator,,
+hvbp_scip_02_18_2015,28,scip_vte_2_improvement_points_denom,,,cY2RTv6wP90400s,INTEGER,1,SCIP-VTE-2 Improvement Points Points Denominator,,
+hvbp_scip_02_18_2015,29,scip_vte_2_measure_score_denom,,,cY2RTv6wP90400t,INTEGER,2,SCIP-VTE-2 Measure Score Points Denominator,,
 ,,,,,,,,,,
 fy2013_net_change_in_base_op_drg_payment_amt,1,id,1,,tY2RTv6wP905,INTEGER,,HVBP Net change in base operating DRG payment amount,,
 fy2013_net_change_in_base_op_drg_payment_amt,2,net_change_in_base_operating_drg_payment_amount,,,cY2RTv6wP905002,VARCHAR,22,Net Change in Base Operating DRG Payment Amount,,
@@ -211,27 +223,57 @@ hvbp_hai_02_18_2015,5,city,,,cY2RTv6wP908005,VARCHAR,22,City,,
 hvbp_hai_02_18_2015,6,state,,,cY2RTv6wP908006,VARCHAR,2,State,,
 hvbp_hai_02_18_2015,7,zip_code,,,cY2RTv6wP908007,VARCHAR,10,Zip Code,,1
 hvbp_hai_02_18_2015,8,county_name,,,cY2RTv6wP908008,VARCHAR,22,County Name,,
-hvbp_hai_02_18_2015,9,scip_inf_1_performance_rate,,,cY2RTv6wP908009,REAL,,SCIP-Inf-1 Performance Rate,point_float_caster,1
-hvbp_hai_02_18_2015,10,scip_inf_1_achievement_points,,,cY2RTv6wP90800a,REAL,,SCIP-Inf-1 Achievement Points,point_float_caster,
-hvbp_hai_02_18_2015,11,scip_inf_1_improvement_points,,,cY2RTv6wP90800b,REAL,,SCIP-Inf-1 Improvement Points,point_float_caster,
-hvbp_hai_02_18_2015,12,scip_inf_1_measure_score,,,cY2RTv6wP90800c,REAL,,SCIP-Inf-1 Measure Score,point_float_caster,
-hvbp_hai_02_18_2015,13,scip_inf_2_performance_rate,,,cY2RTv6wP90800d,REAL,,SCIP-Inf-2 Performance Rate,point_float_caster,1
-hvbp_hai_02_18_2015,14,scip_inf_2_achievement_points,,,cY2RTv6wP90800e,REAL,,SCIP-Inf-2 Achievement Points,point_float_caster,
-hvbp_hai_02_18_2015,15,scip_inf_2_improvement_points,,,cY2RTv6wP90800f,REAL,,SCIP-Inf-2 Improvement Points,point_float_caster,
-hvbp_hai_02_18_2015,16,scip_inf_2_measure_score,,,cY2RTv6wP90800g,REAL,,SCIP-Inf-2 Measure Score,point_float_caster,
-hvbp_hai_02_18_2015,17,scip_inf_3_performance_rate,,,cY2RTv6wP90800h,REAL,,SCIP-Inf-3 Performance Rate,point_float_caster,1
-hvbp_hai_02_18_2015,18,scip_inf_3_achievement_points,,,cY2RTv6wP90800i,REAL,,SCIP-Inf-3 Achievement Points,point_float_caster,
-hvbp_hai_02_18_2015,19,scip_inf_3_improvement_points,,,cY2RTv6wP90800j,REAL,,SCIP-Inf-3 Improvement Points,point_float_caster,
-hvbp_hai_02_18_2015,20,scip_inf_3_measure_score,,,cY2RTv6wP90800k,REAL,,SCIP-Inf-3 Measure Score,point_float_caster,
-hvbp_hai_02_18_2015,21,scip_inf_4_performance_rate,,,cY2RTv6wP90800l,REAL,,SCIP-Inf-4 Performance Rate,point_float_caster,
-hvbp_hai_02_18_2015,22,scip_inf_4_achievement_points,,,cY2RTv6wP90800m,REAL,,SCIP-Inf-4 Achievement Points,point_float_caster,
-hvbp_hai_02_18_2015,23,scip_inf_4_improvement_points,,,cY2RTv6wP90800n,REAL,,SCIP-Inf-4 Improvement Points,point_float_caster,
-hvbp_hai_02_18_2015,24,scip_inf_4_measure_score,,,cY2RTv6wP90800o,REAL,,SCIP-Inf-4 Measure Score,point_float_caster,
-hvbp_hai_02_18_2015,25,scip_inf_9_performance_rate,,,cY2RTv6wP90800p,REAL,,SCIP-Inf-9 Performance Rate,point_float_caster,1
-hvbp_hai_02_18_2015,26,scip_inf_9_achievement_points,,,cY2RTv6wP90800q,REAL,,SCIP-Inf-9 Achievement Points,point_float_caster,
-hvbp_hai_02_18_2015,27,scip_inf_9_improvement_points,,,cY2RTv6wP90800r,REAL,,SCIP-Inf-9 Improvement Points,point_float_caster,
-hvbp_hai_02_18_2015,28,scip_inf_9_measure_score,,,cY2RTv6wP90800s,REAL,,SCIP-Inf-9 Measure Score,point_float_caster,
+hvbp_hai_02_18_2015,9,scip_inf_1_performance_rate,,,cY2RTv6wP908009,REAL,,SCIP-Inf-1 Performance Rate,float_na_caster,1
+hvbp_hai_02_18_2015,10,scip_inf_1_achievement_points,,,cY2RTv6wP90800a,VARCHAR,13,SCIP-Inf-1 Achievement Points,,
+hvbp_hai_02_18_2015,11,scip_inf_1_improvement_points,,,cY2RTv6wP90800b,VARCHAR,13,SCIP-Inf-1 Improvement Points,,
+hvbp_hai_02_18_2015,12,scip_inf_1_measure_score,,,cY2RTv6wP90800c,VARCHAR,13,SCIP-Inf-1 Measure Score,,
+hvbp_hai_02_18_2015,13,scip_inf_2_performance_rate,,,cY2RTv6wP90800d,REAL,,SCIP-Inf-2 Performance Rate,float_na_caster,1
+hvbp_hai_02_18_2015,14,scip_inf_2_achievement_points,,,cY2RTv6wP90800e,VARCHAR,13,SCIP-Inf-2 Achievement Points,,
+hvbp_hai_02_18_2015,15,scip_inf_2_improvement_points,,,cY2RTv6wP90800f,VARCHAR,13,SCIP-Inf-2 Improvement Points,,
+hvbp_hai_02_18_2015,16,scip_inf_2_measure_score,,,cY2RTv6wP90800g,VARCHAR,13,SCIP-Inf-2 Measure Score,,
+hvbp_hai_02_18_2015,17,scip_inf_3_performance_rate,,,cY2RTv6wP90800h,REAL,,SCIP-Inf-3 Performance Rate,float_na_caster,1
+hvbp_hai_02_18_2015,18,scip_inf_3_achievement_points,,,cY2RTv6wP90800i,VARCHAR,13,SCIP-Inf-3 Achievement Points,,
+hvbp_hai_02_18_2015,19,scip_inf_3_improvement_points,,,cY2RTv6wP90800j,VARCHAR,13,SCIP-Inf-3 Improvement Points,,
+hvbp_hai_02_18_2015,20,scip_inf_3_measure_score,,,cY2RTv6wP90800k,VARCHAR,13,SCIP-Inf-3 Measure Score,,
+hvbp_hai_02_18_2015,21,scip_inf_4_performance_rate,,,cY2RTv6wP90800l,REAL,,SCIP-Inf-4 Performance Rate,float_na_caster,
+hvbp_hai_02_18_2015,22,scip_inf_4_achievement_points,,,cY2RTv6wP90800m,VARCHAR,13,SCIP-Inf-4 Achievement Points,,
+hvbp_hai_02_18_2015,23,scip_inf_4_improvement_points,,,cY2RTv6wP90800n,VARCHAR,13,SCIP-Inf-4 Improvement Points,,
+hvbp_hai_02_18_2015,24,scip_inf_4_measure_score,,,cY2RTv6wP90800o,VARCHAR,13,SCIP-Inf-4 Measure Score,,
+hvbp_hai_02_18_2015,25,scip_inf_9_performance_rate,,,cY2RTv6wP90800p,REAL,,SCIP-Inf-9 Performance Rate,float_na_caster,1
+hvbp_hai_02_18_2015,26,scip_inf_9_achievement_points,,,cY2RTv6wP90800q,VARCHAR,13,SCIP-Inf-9 Achievement Points,,
+hvbp_hai_02_18_2015,27,scip_inf_9_improvement_points,,,cY2RTv6wP90800r,VARCHAR,13,SCIP-Inf-9 Improvement Points,,
+hvbp_hai_02_18_2015,28,scip_inf_9_measure_score,,,cY2RTv6wP90800s,VARCHAR,13,SCIP-Inf-9 Measure Score,,
 hvbp_hai_02_18_2015,29,hai_condition_procedure_score,,,cY2RTv6wP90800t,INTEGER,2,HAI Condition/Procedure Score,int_na_caster,1
+hvbp_hai_02_18_2015,30,scip_inf_1_achievement_points_nom,,,cY2RTv6wP90800u,INTEGER,2,SCIP-Inf-1 Achievement Points Nominator,,
+hvbp_hai_02_18_2015,31,scip_inf_1_improvement_points_nom,,,cY2RTv6wP90800v,INTEGER,1,SCIP-Inf-1 Improvement Points Nominator,,
+hvbp_hai_02_18_2015,32,scip_inf_1_measure_score_nom,,,cY2RTv6wP90800w,INTEGER,2,SCIP-Inf-1 Measure Score Nominator,,
+hvbp_hai_02_18_2015,33,scip_inf_2_achievement_points_nom,,,cY2RTv6wP90800x,INTEGER,2,SCIP-Inf-2 Achievement Points Nominator,,
+hvbp_hai_02_18_2015,34,scip_inf_2_improvement_points_nom,,,cY2RTv6wP90800y,INTEGER,1,SCIP-Inf-2 Improvement Points Nominator,,
+hvbp_hai_02_18_2015,35,scip_inf_2_measure_score_nom,,,cY2RTv6wP90800z,INTEGER,2,SCIP-Inf-2 Measure Score Nominator,,
+hvbp_hai_02_18_2015,36,scip_inf_3_achievement_points_nom,,,cY2RTv6wP90800A,INTEGER,2,SCIP-Inf-3 Achievement Points Nominator,,
+hvbp_hai_02_18_2015,37,scip_inf_3_improvement_points_nom,,,cY2RTv6wP90800B,INTEGER,1,SCIP-Inf-3 Improvement Points Nominator,,
+hvbp_hai_02_18_2015,38,scip_inf_3_measure_score_nom,,,cY2RTv6wP90800C,INTEGER,2,SCIP-Inf-3 Measure Score Nominator,,
+hvbp_hai_02_18_2015,39,scip_inf_4_achievement_points_nom,,,cY2RTv6wP90800D,INTEGER,2,SCIP-Inf-4 Achievement Points Nominator,,
+hvbp_hai_02_18_2015,40,scip_inf_4_improvement_points_nom,,,cY2RTv6wP90800E,INTEGER,1,SCIP-Inf-4 Improvement Points Nominator,,
+hvbp_hai_02_18_2015,41,scip_inf_4_measure_score_nom,,,cY2RTv6wP90800F,INTEGER,2,SCIP-Inf-4 Measure Score Nominator,,
+hvbp_hai_02_18_2015,42,scip_inf_9_achievement_points_nom,,,cY2RTv6wP90800G,INTEGER,2,SCIP-Inf-9 Achievement Points Nominator,,
+hvbp_hai_02_18_2015,43,scip_inf_9_improvement_points_nom,,,cY2RTv6wP90800H,INTEGER,1,SCIP-Inf-9 Improvement Points Nominator,,
+hvbp_hai_02_18_2015,44,scip_inf_9_measure_score_nom,,,cY2RTv6wP90800I,INTEGER,2,SCIP-Inf-9 Measure Score Nominator,,
+hvbp_hai_02_18_2015,45,scip_inf_1_achievement_points_denom,,,cY2RTv6wP90800J,INTEGER,2,SCIP-Inf-1 Achievement Points Denominator,,
+hvbp_hai_02_18_2015,46,scip_inf_1_improvement_points_denom,,,cY2RTv6wP90800K,INTEGER,1,SCIP-Inf-1 Improvement Points Denominator,,
+hvbp_hai_02_18_2015,47,scip_inf_1_measure_score_denom,,,cY2RTv6wP90800L,INTEGER,2,SCIP-Inf-1 Measure Score Denominator,,
+hvbp_hai_02_18_2015,48,scip_inf_2_achievement_points_denom,,,cY2RTv6wP90800M,INTEGER,2,SCIP-Inf-2 Achievement Points Denominator,,
+hvbp_hai_02_18_2015,49,scip_inf_2_improvement_points_denom,,,cY2RTv6wP90800N,INTEGER,1,SCIP-Inf-2 Improvement Points Denominator,,
+hvbp_hai_02_18_2015,50,scip_inf_2_measure_score_denom,,,cY2RTv6wP90800O,INTEGER,2,SCIP-Inf-2 Measure Score Denominator,,
+hvbp_hai_02_18_2015,51,scip_inf_3_achievement_points_denom,,,cY2RTv6wP90800P,INTEGER,2,SCIP-Inf-3 Achievement Points Denominator,,
+hvbp_hai_02_18_2015,52,scip_inf_3_improvement_points_denom,,,cY2RTv6wP90800Q,INTEGER,1,SCIP-Inf-3 Improvement Points Denominator,,
+hvbp_hai_02_18_2015,53,scip_inf_3_measure_score_denom,,,cY2RTv6wP90800R,INTEGER,2,SCIP-Inf-3 Measure Score Denominator,,
+hvbp_hai_02_18_2015,54,scip_inf_4_achievement_points_denom,,,cY2RTv6wP90800S,INTEGER,2,SCIP-Inf-4 Achievement Points Denominator,,
+hvbp_hai_02_18_2015,55,scip_inf_4_improvement_points_denom,,,cY2RTv6wP90800T,INTEGER,1,SCIP-Inf-4 Improvement Points Denominator,,
+hvbp_hai_02_18_2015,56,scip_inf_4_measure_score_denom,,,cY2RTv6wP90800U,INTEGER,2,SCIP-Inf-4 Measure Score Denominator,,
+hvbp_hai_02_18_2015,57,scip_inf_9_achievement_points_denom,,,cY2RTv6wP90800V,INTEGER,2,SCIP-Inf-9 Achievement Points Denominator,,
+hvbp_hai_02_18_2015,58,scip_inf_9_improvement_points_denom,,,cY2RTv6wP90800W,INTEGER,1,SCIP-Inf-9 Improvement Points Denominator,,
+hvbp_hai_02_18_2015,59,scip_inf_9_measure_score_denom,,,cY2RTv6wP90800X,INTEGER,2,SCIP-Inf-9 Measure Score Denominator,,
 ,,,,,,,,,,
 hospital_quarterly_qualitymeasure_ipfqr_national,1,id,1,,tY2RTv6wP909,INTEGER,,Inpatient Psychiatric Facility Quality Reporting (IPFQR) Program - National-level results,,
 hospital_quarterly_qualitymeasure_ipfqr_national,2,n_hbips_2_measure_description,,,cY2RTv6wP909002,VARCHAR,33,N_HBIPS-2_Measure_Description,,
@@ -404,10 +446,16 @@ hvbp_hf_02_18_2015,6,state,,,cY2RTv6wP90g006,VARCHAR,2,State,,
 hvbp_hf_02_18_2015,7,zip_code,,,cY2RTv6wP90g007,VARCHAR,10,ZIP Code,,1
 hvbp_hf_02_18_2015,8,county_name,,,cY2RTv6wP90g008,VARCHAR,22,County Name,,
 hvbp_hf_02_18_2015,9,hf_1_performance_rate,,,cY2RTv6wP90g009,REAL,,HF-1 Performance Rate,float_na_caster,1
-hvbp_hf_02_18_2015,10,hf_1_achievement_points,,,cY2RTv6wP90g00a,REAL,,HF-1 Achievement Points,point_float_caster,
-hvbp_hf_02_18_2015,11,hf_1_improvement_points,,,cY2RTv6wP90g00b,REAL,,HF-1 Improvement Points,point_float_caster,
-hvbp_hf_02_18_2015,12,hf_1_measure_score,,,cY2RTv6wP90g00c,REAL,,HF-1 Measure Score,point_float_caster,
+hvbp_hf_02_18_2015,10,hf_1_achievement_points,,,cY2RTv6wP90g00a,VARCHAR,13,HF-1 Achievement Points,,
+hvbp_hf_02_18_2015,11,hf_1_improvement_points,,,cY2RTv6wP90g00b,VARCHAR,13,HF-1 Improvement Points,,
+hvbp_hf_02_18_2015,12,hf_1_measure_score,,,cY2RTv6wP90g00c,VARCHAR,13,HF-1 Measure Score,,
 hvbp_hf_02_18_2015,13,hf_condition_procedure_score,,,cY2RTv6wP90g00d,INTEGER,2,HF Condition/Procedure Score,int_na_caster,1
+hvbp_hf_02_18_2015,14,hf_1_achievement_points_nom,,,cY2RTv6wP90g00e,INTEGER,2,HF-1 Achievement Points Nominator,,
+hvbp_hf_02_18_2015,15,hf_1_improvement_points_nom,,,cY2RTv6wP90g00f,INTEGER,1,HF-1 Improvement Points Nominator,,
+hvbp_hf_02_18_2015,16,hf_1_measure_score_nom,,,cY2RTv6wP90g00g,INTEGER,2,HF-1 Measure Score Nominator,,
+hvbp_hf_02_18_2015,17,hf_1_achievement_points_denom,,,cY2RTv6wP90g00h,INTEGER,2,HF-1 Achievement Points Denominator,,
+hvbp_hf_02_18_2015,18,hf_1_improvement_points_denom,,,cY2RTv6wP90g00i,INTEGER,1,HF-1 Improvement Points Denominator,,
+hvbp_hf_02_18_2015,19,hf_1_measure_score_denom,,,cY2RTv6wP90g00j,INTEGER,2,HF-1 Measure Score Denominator,,
 ,,,,,,,,,,
 healthcare_associated_infections_national,1,id,1,,tY2RTv6wP90h,INTEGER,,Healthcare Associated Infections0(HAI) measures: National-level results,,
 healthcare_associated_infections_national,2,measure_name,,,cY2RTv6wP90h002,VARCHAR,112,Measure Name,,
@@ -468,33 +516,79 @@ hvbp_hcahps_02_18_2015,4,address,,,cY2RTv6wP90m004,VARCHAR,52,Address,,
 hvbp_hcahps_02_18_2015,5,city,,,cY2RTv6wP90m005,VARCHAR,22,City,,
 hvbp_hcahps_02_18_2015,6,state,,,cY2RTv6wP90m006,VARCHAR,2,State,,
 hvbp_hcahps_02_18_2015,7,zip_code,,,cY2RTv6wP90m007,VARCHAR,12,ZIP Code,,1
-hvbp_hcahps_02_18_2015,8,county_name,,,cY2RTv6wP90m008,VARCHAR,22,County Name,point_float_caster,
-hvbp_hcahps_02_18_2015,9,communication_with_nurses_achievement_points,,,cY2RTv6wP90m009,REAL,,Communication with Nurses Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,10,communication_with_nurses_improvement_points,,,cY2RTv6wP90m00a,REAL,,Communication with Nurses Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,11,communication_with_nurses_dimension_score,,,cY2RTv6wP90m00b,REAL,,Communication with Nurses Dimension Score,point_float_caster,
-hvbp_hcahps_02_18_2015,12,communication_with_doctors_achievement_points,,,cY2RTv6wP90m00c,REAL,,Communication with Doctors Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,13,communication_with_doctors_improvement_points,,,cY2RTv6wP90m00d,REAL,,Communication with Doctors Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,14,communication_with_doctors_dimension_score,,,cY2RTv6wP90m00e,REAL,,Communication with Doctors Dimension Score,point_float_caster,
-hvbp_hcahps_02_18_2015,15,responsiveness_of_hospital_staff_achievement_points,,,cY2RTv6wP90m00f,REAL,,Responsiveness of Hospital Staff Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,16,responsiveness_of_hospital_staff_improvement_points,,,cY2RTv6wP90m00g,REAL,,Responsiveness of Hospital Staff Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,17,responsiveness_of_hospital_staff_dimension_score,,,cY2RTv6wP90m00h,REAL,,Responsiveness of Hospital Staff Dimension Score,point_float_caster,
-hvbp_hcahps_02_18_2015,18,pain_management_achievement_points,,,cY2RTv6wP90m00i,REAL,,Pain Management Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,19,pain_management_improvement_points,,,cY2RTv6wP90m00j,REAL,,Pain Management Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,20,pain_management_dimension_score,,,cY2RTv6wP90m00k,REAL,,Pain Management Dimension Score,point_float_caster,
-hvbp_hcahps_02_18_2015,21,communication_about_medicines_achievement_points,,,cY2RTv6wP90m00l,REAL,,Communication about Medicines Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,22,communication_about_medicines_improvement_points,,,cY2RTv6wP90m00m,REAL,,Communication about Medicines Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,23,communication_about_medicines_dimension_score,,,cY2RTv6wP90m00n,REAL,,Communication about Medicines Dimension Score,point_float_caster,
-hvbp_hcahps_02_18_2015,24,cleanliness_and_quietness_of_hospital_environment_achievement_points,,,cY2RTv6wP90m00o,REAL,,Cleanliness and Quietness of Hospital Environment Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,25,cleanliness_and_quietness_of_hospital_environment_improvement_points,,,cY2RTv6wP90m00p,REAL,,Cleanliness and Quietness of Hospital Environment Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,26,cleanliness_and_quietness_of_hospital_environment_dimension_score,,,cY2RTv6wP90m00q,REAL,,Cleanliness and Quietness of Hospital Environment Dimension Score,point_float_caster,
-hvbp_hcahps_02_18_2015,27,discharge_information_achievement_points,,,cY2RTv6wP90m00r,REAL,,Discharge Information Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,28,discharge_information_improvement_points,,,cY2RTv6wP90m00s,REAL,,Discharge Information Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,29,discharge_information_dimension_score,,,cY2RTv6wP90m00t,REAL,,Discharge Information Dimension Score,point_float_caster,
-hvbp_hcahps_02_18_2015,30,overall_rating_of_hospital_achievement_points,,,cY2RTv6wP90m00u,REAL,,Overall Rating of Hospital Achievement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,31,overall_rating_of_hospital_improvement_points,,,cY2RTv6wP90m00v,REAL,,Overall Rating of Hospital Improvement Points,point_float_caster,
-hvbp_hcahps_02_18_2015,32,overall_rating_of_hospital_dimension_score,,,cY2RTv6wP90m00w,REAL,,Overall Rating of Hospital Dimension Score,point_float_caster,
+hvbp_hcahps_02_18_2015,8,county_name,,,cY2RTv6wP90m008,VARCHAR,22,County Name,,
+hvbp_hcahps_02_18_2015,9,communication_with_nurses_achievement_points,,,cY2RTv6wP90m009,VARCHAR,13,Communication with Nurses Achievement Points,,
+hvbp_hcahps_02_18_2015,10,communication_with_nurses_improvement_points,,,cY2RTv6wP90m00a,VARCHAR,13,Communication with Nurses Improvement Points,,
+hvbp_hcahps_02_18_2015,11,communication_with_nurses_dimension_score,,,cY2RTv6wP90m00b,VARCHAR,13,Communication with Nurses Dimension Score,,
+hvbp_hcahps_02_18_2015,12,communication_with_doctors_achievement_points,,,cY2RTv6wP90m00c,VARCHAR,13,Communication with Doctors Achievement Points,,
+hvbp_hcahps_02_18_2015,13,communication_with_doctors_improvement_points,,,cY2RTv6wP90m00d,VARCHAR,13,Communication with Doctors Improvement Points,,
+hvbp_hcahps_02_18_2015,14,communication_with_doctors_dimension_score,,,cY2RTv6wP90m00e,VARCHAR,13,Communication with Doctors Dimension Score,,
+hvbp_hcahps_02_18_2015,15,responsiveness_of_hospital_staff_achievement_points,,,cY2RTv6wP90m00f,VARCHAR,13,Responsiveness of Hospital Staff Achievement Points,,
+hvbp_hcahps_02_18_2015,16,responsiveness_of_hospital_staff_improvement_points,,,cY2RTv6wP90m00g,VARCHAR,13,Responsiveness of Hospital Staff Improvement Points,,
+hvbp_hcahps_02_18_2015,17,responsiveness_of_hospital_staff_dimension_score,,,cY2RTv6wP90m00h,VARCHAR,13,Responsiveness of Hospital Staff Dimension Score,,
+hvbp_hcahps_02_18_2015,18,pain_management_achievement_points,,,cY2RTv6wP90m00i,VARCHAR,13,Pain Management Achievement Points,,
+hvbp_hcahps_02_18_2015,19,pain_management_improvement_points,,,cY2RTv6wP90m00j,VARCHAR,13,Pain Management Improvement Points,,
+hvbp_hcahps_02_18_2015,20,pain_management_dimension_score,,,cY2RTv6wP90m00k,VARCHAR,13,Pain Management Dimension Score,,
+hvbp_hcahps_02_18_2015,21,communication_about_medicines_achievement_points,,,cY2RTv6wP90m00l,VARCHAR,13,Communication about Medicines Achievement Points,,
+hvbp_hcahps_02_18_2015,22,communication_about_medicines_improvement_points,,,cY2RTv6wP90m00m,VARCHAR,13,Communication about Medicines Improvement Points,,
+hvbp_hcahps_02_18_2015,23,communication_about_medicines_dimension_score,,,cY2RTv6wP90m00n,VARCHAR,13,Communication about Medicines Dimension Score,,
+hvbp_hcahps_02_18_2015,24,cleanliness_and_quietness_of_hospital_environment_achievement_points,,,cY2RTv6wP90m00o,VARCHAR,13,Cleanliness and Quietness of Hospital Environment Achievement Points,,
+hvbp_hcahps_02_18_2015,25,cleanliness_and_quietness_of_hospital_environment_improvement_points,,,cY2RTv6wP90m00p,VARCHAR,13,Cleanliness and Quietness of Hospital Environment Improvement Points,,
+hvbp_hcahps_02_18_2015,26,cleanliness_and_quietness_of_hospital_environment_dimension_score,,,cY2RTv6wP90m00q,VARCHAR,13,Cleanliness and Quietness of Hospital Environment Dimension Score,,
+hvbp_hcahps_02_18_2015,27,discharge_information_achievement_points,,,cY2RTv6wP90m00r,VARCHAR,13,Discharge Information Achievement Points,,
+hvbp_hcahps_02_18_2015,28,discharge_information_improvement_points,,,cY2RTv6wP90m00s,VARCHAR,13,Discharge Information Improvement Points,,
+hvbp_hcahps_02_18_2015,29,discharge_information_dimension_score,,,cY2RTv6wP90m00t,VARCHAR,13,Discharge Information Dimension Score,,
+hvbp_hcahps_02_18_2015,30,overall_rating_of_hospital_achievement_points,,,cY2RTv6wP90m00u,VARCHAR,13,Overall Rating of Hospital Achievement Points,,
+hvbp_hcahps_02_18_2015,31,overall_rating_of_hospital_improvement_points,,,cY2RTv6wP90m00v,VARCHAR,13,Overall Rating of Hospital Improvement Points,,
+hvbp_hcahps_02_18_2015,32,overall_rating_of_hospital_dimension_score,,,cY2RTv6wP90m00w,VARCHAR,13,Overall Rating of Hospital Dimension Score,,
 hvbp_hcahps_02_18_2015,33,hcahps_base_score,,,cY2RTv6wP90m00x,INTEGER,2,HCAHPS Base Score,int_na_caster,1
 hvbp_hcahps_02_18_2015,34,hcahps_consistency_score,,,cY2RTv6wP90m00y,INTEGER,2,HCAHPS Consistency Score,int_na_caster,1
+hvbp_hcahps_02_18_2015,35,communication_with_nurses_achievement_points_nom,,,cY2RTv6wP90m00z,INTEGER,2,Communication with Nurses Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,36,communication_with_nurses_improvement_points_nom,,,cY2RTv6wP90m00A,INTEGER,1,Communication with Nurses Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,37,communication_with_nurses_dimension_score_nom,,,cY2RTv6wP90m00B,INTEGER,2,Communication with Nurses Dimension Score Nominator,,
+hvbp_hcahps_02_18_2015,38,communication_with_doctors_achievement_points_nom,,,cY2RTv6wP90m00C,INTEGER,2,Communication with Doctors Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,39,communication_with_doctors_improvement_points_nom,,,cY2RTv6wP90m00D,INTEGER,1,Communication with Doctors Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,40,communication_with_doctors_dimension_score_nom,,,cY2RTv6wP90m00E,INTEGER,2,Communication with Doctors Dimension Score Nominator,,
+hvbp_hcahps_02_18_2015,41,responsiveness_of_hospital_staff_achievement_points_nom,,,cY2RTv6wP90m00F,INTEGER,2,Responsiveness of Hospital Staff Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,42,responsiveness_of_hospital_staff_improvement_points_nom,,,cY2RTv6wP90m00G,INTEGER,1,Responsiveness of Hospital Staff Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,43,responsiveness_of_hospital_staff_dimension_score_nom,,,cY2RTv6wP90m00H,INTEGER,2,Responsiveness of Hospital Staff Dimension Score Nominator,,
+hvbp_hcahps_02_18_2015,44,pain_management_achievement_points_nom,,,cY2RTv6wP90m00I,INTEGER,2,Pain Management Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,45,pain_management_improvement_points_nom,,,cY2RTv6wP90m00J,INTEGER,1,Pain Management Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,46,communication_about_medicines_achievement_points_nom,,,cY2RTv6wP90m00K,INTEGER,2,Communication about Medicines Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,47,communication_about_medicines_improvement_points_nom,,,cY2RTv6wP90m00L,INTEGER,1,Communication about Medicines Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,48,communication_about_medicines_dimension_score_nom,,,cY2RTv6wP90m00M,INTEGER,2,Communication about Medicines Dimension Score Nominator,,
+hvbp_hcahps_02_18_2015,49,cleanliness_and_quietness_of_hospital_environment_achievement_points_nom,,,cY2RTv6wP90m00N,INTEGER,2,Cleanliness and Quietness of Hospital Environment Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,50,cleanliness_and_quietness_of_hospital_environment_improvement_points_nom,,,cY2RTv6wP90m00O,INTEGER,1,Cleanliness and Quietness of Hospital Environment Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,51,cleanliness_and_quietness_of_hospital_environment_dimension_score_nom,,,cY2RTv6wP90m00P,INTEGER,2,Cleanliness and Quietness of Hospital Environment Dimension Score Nominator,,
+hvbp_hcahps_02_18_2015,52,discharge_information_achievement_points_nom,,,cY2RTv6wP90m00Q,INTEGER,2,Discharge Information Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,53,discharge_information_improvement_points_nom,,,cY2RTv6wP90m00R,INTEGER,1,Discharge Information Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,54,discharge_information_dimension_score_nom,,,cY2RTv6wP90m00S,INTEGER,2,Discharge Information Dimension Score Nominator,,
+hvbp_hcahps_02_18_2015,55,overall_rating_of_hospital_achievement_points_nom,,,cY2RTv6wP90m00T,INTEGER,2,Overall Rating of Hospital Achievement Points Nominator,,
+hvbp_hcahps_02_18_2015,56,overall_rating_of_hospital_improvement_points_nom,,,cY2RTv6wP90m00U,INTEGER,1,Overall Rating of Hospital Improvement Points Nominator,,
+hvbp_hcahps_02_18_2015,57,overall_rating_of_hospital_dimension_score_nom,,,cY2RTv6wP90m00V,INTEGER,2,Overall Rating of Hospital Dimension Score Nominator,,
+hvbp_hcahps_02_18_2015,58,communication_with_nurses_achievement_points_denom,,,cY2RTv6wP90m00W,INTEGER,2,Communication with Nurses Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,59,communication_with_nurses_improvement_points_denom,,,cY2RTv6wP90m00X,INTEGER,1,Communication with Nurses Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,60,communication_with_nurses_dimension_score_denom,,,cY2RTv6wP90m00Y,INTEGER,2,Communication with Nurses Dimension Score Denominator,,
+hvbp_hcahps_02_18_2015,61,communication_with_doctors_achievement_points_denom,,,cY2RTv6wP90m00Z,INTEGER,2,Communication with Doctors Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,62,communication_with_doctors_improvement_points_denom,,,cY2RTv6wP90m010,INTEGER,1,Communication with Doctors Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,63,communication_with_doctors_dimension_score_denom,,,cY2RTv6wP90m011,INTEGER,2,Communication with Doctors Dimension Score Denominator,,
+hvbp_hcahps_02_18_2015,64,responsiveness_of_hospital_staff_achievement_points_denom,,,cY2RTv6wP90m012,INTEGER,2,Responsiveness of Hospital Staff Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,65,responsiveness_of_hospital_staff_improvement_points_denom,,,cY2RTv6wP90m013,INTEGER,1,Responsiveness of Hospital Staff Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,66,responsiveness_of_hospital_staff_dimension_score_denom,,,cY2RTv6wP90m014,INTEGER,2,Responsiveness of Hospital Staff Dimension Score Denominator,,
+hvbp_hcahps_02_18_2015,67,pain_management_achievement_points_denom,,,cY2RTv6wP90m015,INTEGER,2,Pain Management Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,68,pain_management_improvement_points_denom,,,cY2RTv6wP90m016,INTEGER,1,Pain Management Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,69,communication_about_medicines_achievement_points_denom,,,cY2RTv6wP90m017,INTEGER,2,Communication about Medicines Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,70,communication_about_medicines_improvement_points_denom,,,cY2RTv6wP90m018,INTEGER,1,Communication about Medicines Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,71,communication_about_medicines_dimension_score_denom,,,cY2RTv6wP90m019,INTEGER,2,Communication about Medicines Dimension Score Denominator,,
+hvbp_hcahps_02_18_2015,72,cleanliness_and_quietness_of_hospital_environment_achievement_points_denom,,,cY2RTv6wP90m01a,INTEGER,2,Cleanliness and Quietness of Hospital Environment Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,73,cleanliness_and_quietness_of_hospital_environment_improvement_points_denom,,,cY2RTv6wP90m01b,INTEGER,1,Cleanliness and Quietness of Hospital Environment Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,74,cleanliness_and_quietness_of_hospital_environment_dimension_score_denom,,,cY2RTv6wP90m01c,INTEGER,2,Cleanliness and Quietness of Hospital Environment Dimension Score Denominator,,
+hvbp_hcahps_02_18_2015,75,discharge_information_achievement_points_denom,,,cY2RTv6wP90m01d,INTEGER,2,Discharge Information Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,76,discharge_information_improvement_points_denom,,,cY2RTv6wP90m01e,INTEGER,1,Discharge Information Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,77,discharge_information_dimension_score_denom,,,cY2RTv6wP90m01f,INTEGER,2,Discharge Information Dimension Score Denominator,,
+hvbp_hcahps_02_18_2015,78,overall_rating_of_hospital_achievement_points_denom,,,cY2RTv6wP90m01g,INTEGER,2,Overall Rating of Hospital Achievement Points Denominator,,
+hvbp_hcahps_02_18_2015,79,overall_rating_of_hospital_improvement_points_denom,,,cY2RTv6wP90m01h,INTEGER,1,Overall Rating of Hospital Improvement Points Denominator,,
+hvbp_hcahps_02_18_2015,80,overall_rating_of_hospital_dimension_score_denom,,,cY2RTv6wP90m01i,INTEGER,2,Overall Rating of Hospital Dimension Score Denominator,,
 ,,,,,,,,,,
 timely_and_effective_care_national,1,id,1,,tY2RTv6wP90n,INTEGER,,Timely and Effective Care - National,,
 timely_and_effective_care_national,2,measure_name,,,cY2RTv6wP90n002,VARCHAR,225,Measure Name,,
@@ -656,9 +750,15 @@ hvbp_efficiency_02_18_2015,6,state,,,cY2RTv6wP90z006,VARCHAR,2,State,,
 hvbp_efficiency_02_18_2015,7,zip_code,,,cY2RTv6wP90z007,VARCHAR,10,ZIP_Code,,1
 hvbp_efficiency_02_18_2015,8,county_name,,,cY2RTv6wP90z008,VARCHAR,22,County_Name,,
 hvbp_efficiency_02_18_2015,9,mspb_1_performance_rate,,,cY2RTv6wP90z009,REAL,,MSPB-1 Performance Rate,float_na_caster,1
-hvbp_efficiency_02_18_2015,10,mspb_1_achievement_points,,,cY2RTv6wP90z00a,REAL,,MSPB-1 Achievement Points,point_float_caster,1
-hvbp_efficiency_02_18_2015,11,mspb_1_improvement_points,,,cY2RTv6wP90z00b,REAL,,MSPB-1 Improvement Points,point_float_caster,1
-hvbp_efficiency_02_18_2015,12,mspb_1_measure_score,,,cY2RTv6wP90z00c,REAL,,MSPB-1 Measure Score,point_float_caster,1
+hvbp_efficiency_02_18_2015,10,mspb_1_achievement_points,,,cY2RTv6wP90z00a,VARCHAR,13,MSPB-1 Achievement Points,,1
+hvbp_efficiency_02_18_2015,11,mspb_1_improvement_points,,,cY2RTv6wP90z00b,VARCHAR,13,MSPB-1 Improvement Points,,1
+hvbp_efficiency_02_18_2015,12,mspb_1_measure_score,,,cY2RTv6wP90z00c,VARCHAR,13,MSPB-1 Measure Score,,1
+hvbp_efficiency_02_18_2015,13,mspb_1_achievement_points_nom,,,cY2RTv6wP90z00d,INTEGER,,MSPB-1 Achievement Point Nominator,,1
+hvbp_efficiency_02_18_2015,14,mspb_1_improvement_points_nom,,,cY2RTv6wP90z00e,INTEGER,,MSPB-1 Improvement Points Nominator,,1
+hvbp_efficiency_02_18_2015,15,mspb_1_measure_score_nom,,,cY2RTv6wP90z00f,INTEGER,,MSPB-1 Measure Score Nominator,,1
+hvbp_efficiency_02_18_2015,16,mspb_1_achievement_points_denom,,,cY2RTv6wP90z00g,INTEGER,,MSPB-1 Achievement Points Denominator,,1
+hvbp_efficiency_02_18_2015,17,mspb_1_improvement_points_denom,,,cY2RTv6wP90z00h,INTEGER,,MSPB-1 Improvement Points Denominator,,1
+hvbp_efficiency_02_18_2015,18,mspb_1_measure_score_denom,,,cY2RTv6wP90z00i,INTEGER,,MSPB-1 Measure Score Denominator,,1
 ,,,,,,,,,,
 outpatient_imaging_efficiency_state,1,id,1,,tY2RTv6wP90A,INTEGER,,Outpatient Imaging Efficiency (OIE) measures: State-level results,,
 outpatient_imaging_efficiency_state,2,state,,,cY2RTv6wP90A002,VARCHAR,2,State,,
@@ -686,25 +786,49 @@ hvbp_outcome_02_18_2015,6,state,,,cY2RTv6wP90C006,VARCHAR,2,State,,
 hvbp_outcome_02_18_2015,7,zip_code,,,cY2RTv6wP90C007,VARCHAR,10,ZIP Code,,1
 hvbp_outcome_02_18_2015,8,county_name,,,cY2RTv6wP90C008,VARCHAR,22,County Name,,
 hvbp_outcome_02_18_2015,9,mort_30_ami_performance_rate,,,cY2RTv6wP90C009,REAL,,MORT-30-AMI Performance Rate,float_na_caster,1
-hvbp_outcome_02_18_2015,10,mort_30_ami_achievement_points,,,cY2RTv6wP90C00a,REAL,,MORT-30-AMI Achievement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,11,mort_30_ami_improvement_points,,,cY2RTv6wP90C00b,REAL,,MORT-30-AMI Improvement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,12,mort_30_ami_measure_score,,,cY2RTv6wP90C00c,REAL,,MORT-30-AMI Measure Score,point_float_caster,
+hvbp_outcome_02_18_2015,10,mort_30_ami_achievement_points,,,cY2RTv6wP90C00a,VARCHAR,13,MORT-30-AMI Achievement Points,,1
+hvbp_outcome_02_18_2015,11,mort_30_ami_improvement_points,,,cY2RTv6wP90C00b,VARCHAR,13,MORT-30-AMI Improvement Points,,1
+hvbp_outcome_02_18_2015,12,mort_30_ami_measure_score,,,cY2RTv6wP90C00c,VARCHAR,13,MORT-30-AMI Measure Score,,
 hvbp_outcome_02_18_2015,13,mort_30_hf_performance_rate,,,cY2RTv6wP90C00d,REAL,,MORT-30-HF Performance Rate,float_na_caster,1
-hvbp_outcome_02_18_2015,14,mort_30_hf_achievement_points,,,cY2RTv6wP90C00e,REAL,,MORT-30-HF Achievement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,15,mort_30_hf_improvement_points,,,cY2RTv6wP90C00f,REAL,,MORT-30-HF Improvement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,16,mort_30_hf_measure_score,,,cY2RTv6wP90C00g,REAL,,MORT-30-HF Measure Score,point_float_caster,1
+hvbp_outcome_02_18_2015,14,mort_30_hf_achievement_points,,,cY2RTv6wP90C00e,VARCHAR,13,MORT-30-HF Achievement Points,,1
+hvbp_outcome_02_18_2015,15,mort_30_hf_improvement_points,,,cY2RTv6wP90C00f,VARCHAR,13,MORT-30-HF Improvement Points,,1
+hvbp_outcome_02_18_2015,16,mort_30_hf_measure_score,,,cY2RTv6wP90C00g,VARCHAR,13,MORT-30-HF Measure Score,,1
 hvbp_outcome_02_18_2015,17,mort_30_pn_performance_rate,,,cY2RTv6wP90C00h,REAL,,MORT-30-PN Performance Rate,float_na_caster,1
-hvbp_outcome_02_18_2015,18,mort_30_pn_achievement_points,,,cY2RTv6wP90C00i,REAL,,MORT-30-PN Achievement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,19,mort_30_pn_improvement_points,,,cY2RTv6wP90C00j,REAL,,MORT-30-PN Improvement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,20,mort_30_pn_measure_score,,,cY2RTv6wP90C00k,REAL,,MORT-30-PN Measure Score,point_float_caster,1
+hvbp_outcome_02_18_2015,18,mort_30_pn_achievement_points,,,cY2RTv6wP90C00i,VARCHAR,13,MORT-30-PN Achievement Points,,1
+hvbp_outcome_02_18_2015,19,mort_30_pn_improvement_points,,,cY2RTv6wP90C00j,VARCHAR,13,MORT-30-PN Improvement Points,,1
+hvbp_outcome_02_18_2015,20,mort_30_pn_measure_score,,,cY2RTv6wP90C00k,VARCHAR,13,MORT-30-PN Measure Score,,1
 hvbp_outcome_02_18_2015,21,psi_90_performance_rate,,,cY2RTv6wP90C00l,REAL,,PSI-90 Performance Rate,float_na_caster,1
-hvbp_outcome_02_18_2015,22,psi_90_achievement_points,,,cY2RTv6wP90C00m,REAL,,PSI-90 Achievement Points,point_float_caster,
-hvbp_outcome_02_18_2015,23,psi_90_improvement_points,,,cY2RTv6wP90C00n,REAL,,PSI-90 Improvement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,24,psi_90_measure_score,,,cY2RTv6wP90C00o,REAL,,PSI-90 Measure Score,point_float_caster,1
+hvbp_outcome_02_18_2015,22,psi_90_achievement_points,,,cY2RTv6wP90C00m,VARCHAR,13,PSI-90 Achievement Points,,
+hvbp_outcome_02_18_2015,23,psi_90_improvement_points,,,cY2RTv6wP90C00n,VARCHAR,13,PSI-90 Improvement Points,,1
+hvbp_outcome_02_18_2015,24,psi_90_measure_score,,,cY2RTv6wP90C00o,VARCHAR,13,PSI-90 Measure Score,,1
 hvbp_outcome_02_18_2015,25,hai_1_performance_rate,,,cY2RTv6wP90C00p,REAL,,HAI-1_Performance_Rate,float_na_caster,1
-hvbp_outcome_02_18_2015,26,hai_1_achievement_points,,,cY2RTv6wP90C00q,REAL,,HAI-1 Achievement Points,point_float_caster,1
-hvbp_outcome_02_18_2015,27,hai_1_improvement_points,,,cY2RTv6wP90C00r,REAL,,HAI-1 Improvement Points,point_float_caster,1
+hvbp_outcome_02_18_2015,26,hai_1_achievement_points,,,cY2RTv6wP90C00q,VARCHAR,13,HAI-1 Achievement Points,,1
+hvbp_outcome_02_18_2015,27,hai_1_improvement_points,,,cY2RTv6wP90C00r,VARCHAR,13,HAI-1 Improvement Points,,1
 hvbp_outcome_02_18_2015,28,hai_1_measure_score,,,cY2RTv6wP90C00s,REAL,,HAI-1 Measure Score,point_float_caster,1
+hvbp_outcome_02_18_2015,29,mort_30_ami_achievement_points_nom,,,cY2RTv6wP90C00t,INTEGER,2,MORT-30-AMI Achievement Points Nominator,,1
+hvbp_outcome_02_18_2015,30,mort_30_ami_improvement_points_nom,,,cY2RTv6wP90C00u,INTEGER,1,MORT-30-AMI Improvement Points Nominator,,1
+hvbp_outcome_02_18_2015,31,mort_30_hf_achievement_points_nom,,,cY2RTv6wP90C00v,INTEGER,2,MORT-30-HF Achievement Points Nominator,,1
+hvbp_outcome_02_18_2015,32,mort_30_hf_improvement_points_nom,,,cY2RTv6wP90C00w,INTEGER,1,MORT-30-HF Improvement Points Nominator,,1
+hvbp_outcome_02_18_2015,33,mort_30_pn_achievement_points_nom,,,cY2RTv6wP90C00x,INTEGER,2,MORT-30-PN Achievement Points Nominator,,1
+hvbp_outcome_02_18_2015,34,mort_30_pn_improvement_points_nom,,,cY2RTv6wP90C00y,INTEGER,1,MORT-30-PN Improvement Points Nominator,,1
+hvbp_outcome_02_18_2015,35,mort_30_pn_measure_score_nom,,,cY2RTv6wP90C00z,INTEGER,2,MORT-30-PN Measure Score Nominator,,1
+hvbp_outcome_02_18_2015,36,psi_90_achievement_points_nom,,,cY2RTv6wP90C00A,INTEGER,2,PSI-90 Achievement Points Nominator,,
+hvbp_outcome_02_18_2015,37,psi_90_improvement_points_nom,,,cY2RTv6wP90C00B,INTEGER,1,PSI-90 Improvement Points Nominator,,1
+hvbp_outcome_02_18_2015,38,psi_90_measure_score_nom,,,cY2RTv6wP90C00C,INTEGER,2,PSI-90 Measure Score Nominator,,1
+hvbp_outcome_02_18_2015,39,hai_1_achievement_points_nom,,,cY2RTv6wP90C00D,INTEGER,2,HAI-1 Achievement Points Nominator,,1
+hvbp_outcome_02_18_2015,40,hai_1_improvement_points_nom,,,cY2RTv6wP90C00E,INTEGER,1,HAI-1 Improvement Points Nominator,,1
+hvbp_outcome_02_18_2015,41,mort_30_ami_achievement_points_denom,,,cY2RTv6wP90C00F,INTEGER,2,MORT-30-AMI Achievement Points Denominator,,1
+hvbp_outcome_02_18_2015,42,mort_30_ami_improvement_points_denom,,,cY2RTv6wP90C00G,INTEGER,1,MORT-30-AMI Improvement Points Denominator,,1
+hvbp_outcome_02_18_2015,43,mort_30_hf_achievement_points_denom,,,cY2RTv6wP90C00H,INTEGER,2,MORT-30-HF Achievement Points Denominator,,1
+hvbp_outcome_02_18_2015,44,mort_30_hf_improvement_points_denom,,,cY2RTv6wP90C00I,INTEGER,1,MORT-30-HF Improvement Points Denominator,,1
+hvbp_outcome_02_18_2015,45,mort_30_pn_achievement_points_denom,,,cY2RTv6wP90C00J,INTEGER,2,MORT-30-PN Achievement Points Denominator,,1
+hvbp_outcome_02_18_2015,46,mort_30_pn_improvement_points_denom,,,cY2RTv6wP90C00K,INTEGER,1,MORT-30-PN Improvement Points Denominator,,1
+hvbp_outcome_02_18_2015,47,mort_30_pn_measure_score_denom,,,cY2RTv6wP90C00L,INTEGER,2,MORT-30-PN Measure Score Denominator,,1
+hvbp_outcome_02_18_2015,48,psi_90_achievement_points_denom,,,cY2RTv6wP90C00M,INTEGER,2,PSI-90 Achievement Points Denominator,,
+hvbp_outcome_02_18_2015,49,psi_90_improvement_points_denom,,,cY2RTv6wP90C00N,INTEGER,1,PSI-90 Improvement Points Denominator,,1
+hvbp_outcome_02_18_2015,50,psi_90_measure_score_denom,,,cY2RTv6wP90C00O,INTEGER,2,PSI-90 Measure Score Denominator,,1
+hvbp_outcome_02_18_2015,51,hai_1_achievement_points_denom,,,cY2RTv6wP90C00P,INTEGER,2,HAI-1 Achievement Points Denominator,,1
+hvbp_outcome_02_18_2015,52,hai_1_improvement_points_denom,,,cY2RTv6wP90C00Q,INTEGER,1,HAI-1 Improvement Points Denominator,,1
 ,,,,,,,,,,
 structural_measures_hospital,1,id,1,,tY2RTv6wP90D,INTEGER,,Structural measures: Hospital-level results,,
 structural_measures_hospital,2,provider_id,,,cY2RTv6wP90D002,VARCHAR,8,Provider ID,,
@@ -746,14 +870,26 @@ hvbp_pn_02_18_2015,6,state,,,cY2RTv6wP90F006,VARCHAR,2,State,,
 hvbp_pn_02_18_2015,7,zip_code,,,cY2RTv6wP90F007,VARCHAR,10,ZIP Code,,1
 hvbp_pn_02_18_2015,8,county_name,,,cY2RTv6wP90F008,VARCHAR,22,County Name,,
 hvbp_pn_02_18_2015,9,pn_3b_performance_rate,,,cY2RTv6wP90F009,REAL,,PN-3b Performance Rate,float_na_caster,1
-hvbp_pn_02_18_2015,10,pn_3b_achievement_points,,,cY2RTv6wP90F00a,REAL,,PN-3b Achievement Points,point_float_caster,
-hvbp_pn_02_18_2015,11,pn_3b_improvement_points,,,cY2RTv6wP90F00b,REAL,,PN-3b Improvement Points,point_float_caster,
-hvbp_pn_02_18_2015,12,pn_3b_measure_score,,,cY2RTv6wP90F00c,REAL,,PN-3b Measure Score,point_float_caster,
+hvbp_pn_02_18_2015,10,pn_3b_achievement_points,,,cY2RTv6wP90F00a,VARCHAR,13,PN-3b Achievement Points,,
+hvbp_pn_02_18_2015,11,pn_3b_improvement_points,,,cY2RTv6wP90F00b,VARCHAR,13,PN-3b Improvement Points,,
+hvbp_pn_02_18_2015,12,pn_3b_measure_score,,,cY2RTv6wP90F00c,VARCHAR,13,PN-3b Measure Score,,
 hvbp_pn_02_18_2015,13,pn_6_performance_rate,,,cY2RTv6wP90F00d,REAL,,PN-6 Performance Rate,float_na_caster,1
-hvbp_pn_02_18_2015,14,pn_6_achievement_points,,,cY2RTv6wP90F00e,REAL,,PN-6 Achievement Points,point_float_caster,
-hvbp_pn_02_18_2015,15,pn_6_improvement_points,,,cY2RTv6wP90F00f,REAL,,PN-6 Improvement Points,point_float_caster,
-hvbp_pn_02_18_2015,16,pn_6_measure_score,,,cY2RTv6wP90F00g,REAL,,PN-6 Measure Score,point_float_caster,
+hvbp_pn_02_18_2015,14,pn_6_achievement_points,,,cY2RTv6wP90F00e,VARCHAR,13,PN-6 Achievement Points,,
+hvbp_pn_02_18_2015,15,pn_6_improvement_points,,,cY2RTv6wP90F00f,VARCHAR,13,PN-6 Improvement Points,,
+hvbp_pn_02_18_2015,16,pn_6_measure_score,,,cY2RTv6wP90F00g,VARCHAR,13,PN-6 Measure Score,,
 hvbp_pn_02_18_2015,17,pn_condition_procedure_score,,,cY2RTv6wP90F00h,INTEGER,2,PN Condition/Procedure Score,int_na_caster,1
+hvbp_pn_02_18_2015,18,pn_3b_achievement_points_nom,,,cY2RTv6wP90F00i,INTEGER,2,PN-3b Achievement Points Nominator,,
+hvbp_pn_02_18_2015,19,pn_3b_improvement_points_nom,,,cY2RTv6wP90F00j,INTEGER,1,PN-3b Improvement Points Nominator,,
+hvbp_pn_02_18_2015,20,pn_3b_measure_score_nom,,,cY2RTv6wP90F00k,INTEGER,2,PN-3b Measure Score Nominator,,
+hvbp_pn_02_18_2015,21,pn_6_achievement_points_nom,,,cY2RTv6wP90F00l,INTEGER,2,PN-6 Achievement Points Nominator,,
+hvbp_pn_02_18_2015,22,pn_6_improvement_points_nom,,,cY2RTv6wP90F00m,INTEGER,1,PN-6 Improvement Points Nominator,,
+hvbp_pn_02_18_2015,23,pn_6_measure_score_nom,,,cY2RTv6wP90F00n,INTEGER,2,PN-6 Measure Score Nominator,,
+hvbp_pn_02_18_2015,24,pn_3b_achievement_points_denom,,,cY2RTv6wP90F00o,INTEGER,2,PN-3b Achievement Points Denominator,,
+hvbp_pn_02_18_2015,25,pn_3b_improvement_points_denom,,,cY2RTv6wP90F00p,INTEGER,1,PN-3b Improvement Points Denominator,,
+hvbp_pn_02_18_2015,26,pn_3b_measure_score_denom,,,cY2RTv6wP90F00q,INTEGER,2,PN-3b Measure Score Denominator,,
+hvbp_pn_02_18_2015,27,pn_6_achievement_points_denom,,,cY2RTv6wP90F00r,INTEGER,2,PN-6 Achievement Points Denominator,,
+hvbp_pn_02_18_2015,28,pn_6_improvement_points_denom,,,cY2RTv6wP90F00s,INTEGER,1,PN-6 Improvement Points Denominator,,
+hvbp_pn_02_18_2015,29,pn_6_measure_score_denom,,,cY2RTv6wP90F00t,INTEGER,2,PN-6 Measure Score Denominator,,
 ,,,,,,,,,,
 hospital_quarterly_qualitymeasure_ipfqr_state,1,id,1,,tY2RTv6wP90G,INTEGER,,Inpatient Psychiatric Facility Quality Reporting (IPFQR) Program - State-level results,,
 hospital_quarterly_qualitymeasure_ipfqr_state,2,state,,,cY2RTv6wP90G002,VARCHAR,2,State,,
@@ -957,11 +1093,23 @@ hvbp_ami_02_18_2015,6,state,,,cY2RTv6wP90O006,VARCHAR,2,State,,
 hvbp_ami_02_18_2015,7,zip_code,,,cY2RTv6wP90O007,VARCHAR,10,ZIP Code,,1
 hvbp_ami_02_18_2015,8,county_name,,,cY2RTv6wP90O008,VARCHAR,22,County Name,,
 hvbp_ami_02_18_2015,9,ami_7a_performance_rate,,,cY2RTv6wP90O009,REAL,,AMI-7a Performance Rate,float_na_caster,
-hvbp_ami_02_18_2015,10,ami_7a_achievement_points,,,cY2RTv6wP90O00a,REAL,,AMI-7a Achievement Points,point_float_caster,
-hvbp_ami_02_18_2015,11,ami_7a_improvement_points,,,cY2RTv6wP90O00b,REAL,,AMI-7a Improvement Points,point_float_caster,
-hvbp_ami_02_18_2015,12,ami_7a_measure_score,,,cY2RTv6wP90O00c,REAL,,AMI-7a Measure Score,point_float_caster,
+hvbp_ami_02_18_2015,10,ami_7a_achievement_points,,,cY2RTv6wP90O00a,VARCHAR,13,AMI-7a Achievement Points,,
+hvbp_ami_02_18_2015,11,ami_7a_improvement_points,,,cY2RTv6wP90O00b,VARCHAR,13,AMI-7a Improvement Points,,
+hvbp_ami_02_18_2015,12,ami_7a_measure_score,,,cY2RTv6wP90O00c,VARCHAR,13,AMI-7a Measure Score,,
 hvbp_ami_02_18_2015,13,ami_8a_performance_rate,,,cY2RTv6wP90O00d,REAL,,AMI-8a Performance Rate,float_na_caster,
-hvbp_ami_02_18_2015,14,ami_8a_achievement_points,,,cY2RTv6wP90O00e,REAL,,AMI-8a Achievement Points,point_float_caster,
-hvbp_ami_02_18_2015,15,ami_8a_improvement_points,,,cY2RTv6wP90O00f,REAL,,AMI-8a Improvement Points,point_float_caster,
-hvbp_ami_02_18_2015,16,ami_8a_measure_score,,,cY2RTv6wP90O00g,REAL,,AMI-8a Measure Score,point_float_caster,
+hvbp_ami_02_18_2015,14,ami_8a_achievement_points,,,cY2RTv6wP90O00e,VARCHAR,13,AMI-8a Achievement Points,,
+hvbp_ami_02_18_2015,15,ami_8a_improvement_points,,,cY2RTv6wP90O00f,VARCHAR,13,AMI-8a Improvement Points,,
+hvbp_ami_02_18_2015,16,ami_8a_measure_score,,,cY2RTv6wP90O00g,VARCHAR,13,AMI-8a Measure Score,,
 hvbp_ami_02_18_2015,17,ami_condition_procedure_score,,,cY2RTv6wP90O00h,INTEGER,2,AMI Condition/Procedure Score,int_na_caster,
+hvbp_ami_02_18_2015,18,ami_7a_achievement_points_nom,,,cY2RTv6wP90O00i,INTEGER,1,AMI-7a Achievement Points Nominator,,
+hvbp_ami_02_18_2015,19,ami_7a_improvement_points_nom,,,cY2RTv6wP90O00j,INTEGER,,AMI-7a Improvement Points Nominator,,
+hvbp_ami_02_18_2015,20,ami_7a_measure_score_nom,,,cY2RTv6wP90O00k,INTEGER,1,AMI-7a Measure Score Nominator,,
+hvbp_ami_02_18_2015,21,ami_8a_achievement_points_nom,,,cY2RTv6wP90O00l,INTEGER,2,AMI-8a Achievement Points Nominator,,
+hvbp_ami_02_18_2015,22,ami_8a_improvement_points_nom,,,cY2RTv6wP90O00m,INTEGER,1,AMI-8a Improvement Points Nominator,,
+hvbp_ami_02_18_2015,23,ami_8a_measure_score_nom,,,cY2RTv6wP90O00n,INTEGER,2,AMI-8a Measure Score Nominator,,
+hvbp_ami_02_18_2015,24,ami_7a_achievement_points_denom,,,cY2RTv6wP90O00o,INTEGER,2,AMI-7a Achievement Points Denominator,,
+hvbp_ami_02_18_2015,25,ami_7a_improvement_points_denom,,,cY2RTv6wP90O00p,INTEGER,1,AMI-7a Improvement Points Denominator,,
+hvbp_ami_02_18_2015,26,ami_7a_measure_score_denom,,,cY2RTv6wP90O00q,INTEGER,2,AMI-7a Measure Score Denominator,,
+hvbp_ami_02_18_2015,27,ami_8a_achievement_points_denom,,,cY2RTv6wP90O00r,INTEGER,2,AMI-8a Achievement Points Denominator,,
+hvbp_ami_02_18_2015,28,ami_8a_improvement_points_denom,,,cY2RTv6wP90O00s,INTEGER,1,AMI-8a Improvement Points Denominator,,
+hvbp_ami_02_18_2015,29,ami_8a_measure_score_denom,,,cY2RTv6wP90O00t,INTEGER,2,AMI-8a Measure Score Denominator,,
